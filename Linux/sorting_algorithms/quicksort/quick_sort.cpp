@@ -11,14 +11,8 @@ int* allocateAndPopulateArray(int n);
 
 int main(int argc, char** argv){
     int size = NUM_ELEMENTS;
-    int* test_array = allocateAndPopulateArray(size);
 
-    printArray(test_array, size);
-    quicksort(test_array, 0, size-1);
-    printArray(test_array, size);
-    delete[] test_array;
-
-    for (int i = 1; i <= 10001; i+=1000){
+    for (int i = 10; i <= 10000; i+=500){
         int* array = allocateAndPopulateArray(i);
         quicksort(array, 0, i-1);
         delete[] array;

@@ -10,12 +10,9 @@ void printArray(int* array, int n);
 
 int main(int argc, char** argv){
     int* testArray = allocateAndPopulateArray(NUM_ELEMENTS);
-    printArray(testArray, NUM_ELEMENTS);
-    mergeSort(testArray, 0, NUM_ELEMENTS-1);
-    printArray(testArray, NUM_ELEMENTS);
     delete[] testArray;
 
-    for (int i = 1; i <= 10001; i+=1000){
+    for (int i = 10; i <= 10000; i+=500){
         int* array = allocateAndPopulateArray(i);
         mergeSort(array, 0, i-1);
         delete[] array;

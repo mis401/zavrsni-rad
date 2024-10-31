@@ -1,0 +1,2519 @@
+desc: --time-unit=B
+cmd: ./merge_without_delete
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=73736
+mem_heap_B=73728
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=226256
+mem_heap_B=151672
+mem_heap_extra_B=62072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=329840
+mem_heap_B=204888
+mem_heap_extra_B=100328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=425992
+mem_heap_B=256328
+mem_heap_extra_B=145040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=550712
+mem_heap_B=319992
+mem_heap_extra_B=189984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=726576
+mem_heap_B=411312
+mem_heap_extra_B=254416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=921616
+mem_heap_B=517388
+mem_heap_extra_B=343380
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=1058576
+mem_heap_B=587984
+mem_heap_extra_B=385632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=1190080
+mem_heap_B=660520
+mem_heap_extra_B=444600
+mem_stacks_B=0
+heap_tree=detailed
+n4: 660520 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 294700 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 294700 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 144764 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 67880 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 30740 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 13716 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 13716 in 3 places, all below massif's threshold (1.00%)
+      n1: 13488 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 13488 in 3 places, all below massif's threshold (1.00%)
+      n0: 3536 in 1 place, below massif's threshold (1.00%)
+     n3: 30084 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 13704 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 13704 in 3 places, all below massif's threshold (1.00%)
+      n1: 12844 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 12844 in 3 places, all below massif's threshold (1.00%)
+      n0: 3536 in 1 place, below massif's threshold (1.00%)
+     n0: 7056 in 1 place, below massif's threshold (1.00%)
+    n3: 62788 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 29688 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 13192 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 13192 in 3 places, all below massif's threshold (1.00%)
+      n1: 12972 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 12972 in 3 places, all below massif's threshold (1.00%)
+      n0: 3524 in 1 place, below massif's threshold (1.00%)
+     n3: 27800 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 13188 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 13188 in 3 places, all below massif's threshold (1.00%)
+      n1: 11968 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 11968 in 3 places, all below massif's threshold (1.00%)
+      n0: 2644 in 1 place, below massif's threshold (1.00%)
+     n0: 5300 in 1 place, below massif's threshold (1.00%)
+    n0: 14096 0x10928A: main (merge_sort.cpp:17)
+   n3: 128796 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 61612 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 27616 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 12156 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 12156 in 3 places, all below massif's threshold (1.00%)
+      n1: 11936 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 11936 in 3 places, all below massif's threshold (1.00%)
+      n0: 3524 in 1 place, below massif's threshold (1.00%)
+     n3: 26956 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 12156 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 12156 in 3 places, all below massif's threshold (1.00%)
+      n1: 11276 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 11276 in 3 places, all below massif's threshold (1.00%)
+      n0: 3524 in 1 place, below massif's threshold (1.00%)
+     n0: 7040 in 1 place, below massif's threshold (1.00%)
+    n3: 56600 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 26800 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 11772 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 11772 in 3 places, all below massif's threshold (1.00%)
+      n1: 11512 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 11512 in 3 places, all below massif's threshold (1.00%)
+      n0: 3516 in 1 place, below massif's threshold (1.00%)
+     n2: 24516 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n0: 12936 in 2 places, all below massif's threshold (1.00%)
+      n1: 11580 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 11580 in 3 places, all below massif's threshold (1.00%)
+     n0: 5284 in 1 place, below massif's threshold (1.00%)
+    n0: 10584 in 1 place, below massif's threshold (1.00%)
+   n0: 21140 0x10928A: main (merge_sort.cpp:17)
+ n1: 278052 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 278052 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 137116 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 64136 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 28884 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 12796 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 12796 in 3 places, all below massif's threshold (1.00%)
+      n1: 12568 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 12568 in 3 places, all below massif's threshold (1.00%)
+      n0: 3520 in 1 place, below massif's threshold (1.00%)
+     n3: 28212 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 12784 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 12784 in 3 places, all below massif's threshold (1.00%)
+      n1: 11908 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 11908 in 3 places, all below massif's threshold (1.00%)
+      n0: 3520 in 1 place, below massif's threshold (1.00%)
+     n0: 7040 in 1 place, below massif's threshold (1.00%)
+    n3: 58916 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 27788 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 12248 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 12248 in 3 places, all below massif's threshold (1.00%)
+      n1: 12028 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 12028 in 3 places, all below massif's threshold (1.00%)
+      n0: 3512 in 1 place, below massif's threshold (1.00%)
+     n2: 25844 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n0: 13640 in 2 places, all below massif's threshold (1.00%)
+      n1: 12204 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 12204 in 3 places, all below massif's threshold (1.00%)
+     n0: 5284 in 1 place, below massif's threshold (1.00%)
+    n0: 14064 0x10928A: main (merge_sort.cpp:17)
+   n3: 119796 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 57608 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n2: 25700 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n0: 14480 in 2 places, all below massif's threshold (1.00%)
+      n1: 11220 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 11220 in 3 places, all below massif's threshold (1.00%)
+     n2: 24884 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n0: 13732 in 2 places, all below massif's threshold (1.00%)
+      n1: 11152 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 11152 in 3 places, all below massif's threshold (1.00%)
+     n0: 7024 in 1 place, below massif's threshold (1.00%)
+    n3: 51632 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n1: 24368 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n0: 24368 in 3 places, all below massif's threshold (1.00%)
+     n1: 21992 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n0: 21992 in 3 places, all below massif's threshold (1.00%)
+     n0: 5272 in 1 place, below massif's threshold (1.00%)
+    n0: 10556 in 1 place, below massif's threshold (1.00%)
+   n0: 21140 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 14040 0x1095CB: allocateAndPopulateArray(int) (merge_sort.cpp:74)
+  n0: 14040 0x10926F: main (merge_sort.cpp:16)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=1341072
+mem_heap_B=737608
+mem_heap_extra_B=490392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=1461968
+mem_heap_B=809632
+mem_heap_extra_B=539264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1553776
+mem_heap_B=858812
+mem_heap_extra_B=581892
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1720720
+mem_heap_B=942836
+mem_heap_extra_B=632700
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1831616
+mem_heap_B=1003068
+mem_heap_extra_B=683364
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1003068 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 466964 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 466964 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 224692 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 106576 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 48812 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 21956 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 21956 in 3 places, all below massif's threshold (1.00%)
+      n1: 21188 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 21188 in 3 places, all below massif's threshold (1.00%)
+      n0: 5668 in 1 place, below massif's threshold (1.00%)
+     n3: 46444 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 21432 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 21432 in 3 places, all below massif's threshold (1.00%)
+      n1: 20472 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 20472 in 3 places, all below massif's threshold (1.00%)
+      n0: 4540 in 1 place, below massif's threshold (1.00%)
+     n0: 11320 in 1 place, below massif's threshold (1.00%)
+    n3: 100008 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 46420 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 20664 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 20664 in 3 places, all below massif's threshold (1.00%)
+      n1: 20100 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 20100 in 3 places, all below massif's threshold (1.00%)
+      n0: 5656 in 1 place, below massif's threshold (1.00%)
+     n3: 44524 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 20592 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 20592 in 3 places, all below massif's threshold (1.00%)
+      n1: 19404 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 19404 in 3 places, all below massif's threshold (1.00%)
+      n0: 4528 in 1 place, below massif's threshold (1.00%)
+     n0: 9064 in 1 place, below massif's threshold (1.00%)
+    n0: 18108 0x10928A: main (merge_sort.cpp:17)
+   n3: 206092 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 95740 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 44076 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 19492 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 19492 in 3 places, all below massif's threshold (1.00%)
+      n1: 18928 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 18928 in 3 places, all below massif's threshold (1.00%)
+      n0: 5656 in 1 place, below massif's threshold (1.00%)
+     n3: 42620 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 19480 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 19480 in 3 places, all below massif's threshold (1.00%)
+      n1: 18612 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 18612 in 3 places, all below massif's threshold (1.00%)
+      n0: 4528 in 1 place, below massif's threshold (1.00%)
+     n0: 9044 in 1 place, below massif's threshold (1.00%)
+    n3: 92244 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 42880 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 18956 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 18956 in 3 places, all below massif's threshold (1.00%)
+      n1: 18276 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 18276 in 3 places, all below massif's threshold (1.00%)
+      n0: 5648 in 1 place, below massif's threshold (1.00%)
+     n3: 40320 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 18668 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 18668 in 3 places, all below massif's threshold (1.00%)
+      n1: 17132 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 17132 in 3 places, all below massif's threshold (1.00%)
+      n0: 4520 in 1 place, below massif's threshold (1.00%)
+     n0: 9044 in 1 place, below massif's threshold (1.00%)
+    n0: 18108 0x10928A: main (merge_sort.cpp:17)
+   n0: 36180 0x10928A: main (merge_sort.cpp:17)
+ n1: 444336 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 444336 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 214040 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 100956 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 45924 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 20520 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 20520 in 3 places, all below massif's threshold (1.00%)
+      n1: 19752 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 19752 in 3 places, all below massif's threshold (1.00%)
+      n0: 5652 in 1 place, below massif's threshold (1.00%)
+     n3: 43732 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 19996 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 19996 in 3 places, all below massif's threshold (1.00%)
+      n1: 19212 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 19212 in 3 places, all below massif's threshold (1.00%)
+      n0: 4524 in 1 place, below massif's threshold (1.00%)
+     n0: 11300 in 1 place, below massif's threshold (1.00%)
+    n3: 95012 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 43932 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 19444 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 19444 in 3 places, all below massif's threshold (1.00%)
+      n1: 18848 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 18848 in 3 places, all below massif's threshold (1.00%)
+      n0: 5640 in 1 place, below massif's threshold (1.00%)
+     n3: 42036 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 19344 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 19344 in 3 places, all below massif's threshold (1.00%)
+      n1: 18180 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 18180 in 3 places, all below massif's threshold (1.00%)
+      n0: 4512 in 1 place, below massif's threshold (1.00%)
+     n0: 9044 in 1 place, below massif's threshold (1.00%)
+    n0: 18072 0x10928A: main (merge_sort.cpp:17)
+   n3: 194116 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 90576 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 41648 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 18304 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 18304 in 3 places, all below massif's threshold (1.00%)
+      n1: 17704 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 17704 in 3 places, all below massif's threshold (1.00%)
+      n0: 5640 in 1 place, below massif's threshold (1.00%)
+     n3: 39900 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 18180 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 18180 in 3 places, all below massif's threshold (1.00%)
+      n1: 17208 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 17208 in 3 places, all below massif's threshold (1.00%)
+      n0: 4512 in 1 place, below massif's threshold (1.00%)
+     n0: 9028 in 1 place, below massif's threshold (1.00%)
+    n3: 85468 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n2: 39744 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n0: 22300 in 2 places, all below massif's threshold (1.00%)
+      n1: 17444 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 17444 in 3 places, all below massif's threshold (1.00%)
+     n1: 36696 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n0: 36696 in 3 places, all below massif's threshold (1.00%)
+     n0: 9028 in 1 place, below massif's threshold (1.00%)
+    n0: 18072 0x10928A: main (merge_sort.cpp:17)
+   n0: 36180 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 18040 0x1095CB: allocateAndPopulateArray(int) (merge_sort.cpp:74)
+  n0: 18040 0x10926F: main (merge_sort.cpp:16)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=1923824
+mem_heap_B=1055780
+mem_heap_extra_B=722860
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2081216
+mem_heap_B=1137512
+mem_heap_extra_B=762408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=2193432
+mem_heap_B=1196388
+mem_heap_extra_B=815748
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2372656
+mem_heap_B=1295824
+mem_heap_extra_B=895536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2506640
+mem_heap_B=1385304
+mem_heap_extra_B=940040
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1385304 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 663020 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 663020 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 317392 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 150044 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 69460 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 31468 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 31468 in 3 places, all below massif's threshold (1.00%)
+      n1: 31068 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 31068 in 3 places, all below massif's threshold (1.00%)
+      n0: 6924 in 1 place, below massif's threshold (1.00%)
+     n3: 66756 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 30432 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 30432 in 3 places, all below massif's threshold (1.00%)
+      n1: 29400 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 29400 in 3 places, all below massif's threshold (1.00%)
+      n0: 6924 in 1 place, below massif's threshold (1.00%)
+     n0: 13828 in 1 place, below massif's threshold (1.00%)
+    n3: 139716 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 63652 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 28376 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 28376 in 3 places, all below massif's threshold (1.00%)
+      n1: 28368 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 28368 in 3 places, all below massif's threshold (1.00%)
+      n0: 6908 in 1 place, below massif's threshold (1.00%)
+     n3: 62236 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 28228 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 28228 in 3 places, all below massif's threshold (1.00%)
+      n1: 27100 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 27100 in 3 places, all below massif's threshold (1.00%)
+      n0: 6908 in 1 place, below massif's threshold (1.00%)
+     n0: 13828 in 1 place, below massif's threshold (1.00%)
+    n0: 27632 0x10928A: main (merge_sort.cpp:17)
+   n3: 290408 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 133460 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 59996 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 26548 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 26548 in 3 places, all below massif's threshold (1.00%)
+      n1: 26540 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 26540 in 3 places, all below massif's threshold (1.00%)
+      n0: 6908 in 1 place, below massif's threshold (1.00%)
+     n3: 59660 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 26528 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 26528 in 3 places, all below massif's threshold (1.00%)
+      n1: 26224 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 26224 in 3 places, all below massif's threshold (1.00%)
+      n0: 6908 in 1 place, below massif's threshold (1.00%)
+     n0: 13804 in 1 place, below massif's threshold (1.00%)
+    n3: 129316 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 58724 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 26000 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 26000 in 3 places, all below massif's threshold (1.00%)
+      n1: 25824 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 25824 in 3 places, all below massif's threshold (1.00%)
+      n0: 6900 in 1 place, below massif's threshold (1.00%)
+     n3: 56788 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 25468 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 25468 in 3 places, all below massif's threshold (1.00%)
+      n1: 24420 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 24420 in 3 places, all below massif's threshold (1.00%)
+      n0: 6900 in 1 place, below massif's threshold (1.00%)
+     n0: 13804 in 1 place, below massif's threshold (1.00%)
+    n0: 27632 0x10928A: main (merge_sort.cpp:17)
+   n0: 55220 0x10928A: main (merge_sort.cpp:17)
+ n1: 628516 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 628516 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 298340 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 139532 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 64064 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 28780 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 28780 in 3 places, all below massif's threshold (1.00%)
+      n1: 28380 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 28380 in 3 places, all below massif's threshold (1.00%)
+      n0: 6904 in 1 place, below massif's threshold (1.00%)
+     n3: 61664 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 27716 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 27716 in 3 places, all below massif's threshold (1.00%)
+      n1: 27044 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 27044 in 3 places, all below massif's threshold (1.00%)
+      n0: 6904 in 1 place, below massif's threshold (1.00%)
+     n0: 13804 in 1 place, below massif's threshold (1.00%)
+    n3: 131220 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 59092 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 26116 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 26116 in 3 places, all below massif's threshold (1.00%)
+      n1: 26084 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 26084 in 3 places, all below massif's threshold (1.00%)
+      n0: 6892 in 1 place, below massif's threshold (1.00%)
+     n3: 58324 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 26016 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 26016 in 3 places, all below massif's threshold (1.00%)
+      n1: 25416 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 25416 in 3 places, all below massif's threshold (1.00%)
+      n0: 6892 in 1 place, below massif's threshold (1.00%)
+     n0: 13804 in 1 place, below massif's threshold (1.00%)
+    n0: 27588 0x10928A: main (merge_sort.cpp:17)
+   n3: 274956 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 126528 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 56748 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 24976 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 24976 in 3 places, all below massif's threshold (1.00%)
+      n1: 24880 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 24880 in 3 places, all below massif's threshold (1.00%)
+      n0: 6892 in 1 place, below massif's threshold (1.00%)
+     n3: 55996 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 24756 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 24756 in 3 places, all below massif's threshold (1.00%)
+      n1: 24348 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 24348 in 3 places, all below massif's threshold (1.00%)
+      n0: 6892 in 1 place, below massif's threshold (1.00%)
+     n0: 13784 in 1 place, below massif's threshold (1.00%)
+    n3: 120840 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 54528 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 23964 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 23964 in 3 places, all below massif's threshold (1.00%)
+      n1: 23684 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 23684 in 3 places, all below massif's threshold (1.00%)
+      n0: 6880 in 1 place, below massif's threshold (1.00%)
+     n2: 52528 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n0: 29228 in 2 places, all below massif's threshold (1.00%)
+      n1: 23300 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 23300 in 3 places, all below massif's threshold (1.00%)
+     n0: 13784 in 1 place, below massif's threshold (1.00%)
+    n0: 27588 0x10928A: main (merge_sort.cpp:17)
+   n0: 55220 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 20040 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=2610368
+mem_heap_B=1418728
+mem_heap_extra_B=970232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2733384
+mem_heap_B=1484716
+mem_heap_extra_B=1027260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2889840
+mem_heap_B=1577336
+mem_heap_extra_B=1091096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=3017920
+mem_heap_B=1663096
+mem_heap_extra_B=1133416
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1663096 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 806336 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 806336 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 387920 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 183848 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 85000 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 38552 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 38552 in 3 places, all below massif's threshold (1.00%)
+      n1: 38144 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 38144 in 3 places, all below massif's threshold (1.00%)
+      n0: 8304 in 1 place, below massif's threshold (1.00%)
+     n3: 82264 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 37500 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 37500 in 3 places, all below massif's threshold (1.00%)
+      n1: 36460 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 36460 in 3 places, all below massif's threshold (1.00%)
+      n0: 8304 in 1 place, below massif's threshold (1.00%)
+     n0: 16584 in 1 place, below massif's threshold (1.00%)
+    n3: 170928 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 78664 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 35436 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 35436 in 3 places, all below massif's threshold (1.00%)
+      n1: 34940 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 34940 in 3 places, all below massif's threshold (1.00%)
+      n0: 8288 in 1 place, below massif's threshold (1.00%)
+     n3: 75680 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 34260 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 34260 in 3 places, all below massif's threshold (1.00%)
+      n1: 33132 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 33132 in 3 places, all below massif's threshold (1.00%)
+      n0: 8288 in 1 place, below massif's threshold (1.00%)
+     n0: 16584 in 1 place, below massif's threshold (1.00%)
+    n0: 33144 0x10928A: main (merge_sort.cpp:17)
+   n3: 352176 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 162616 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 73440 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 32580 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 32580 in 3 places, all below massif's threshold (1.00%)
+      n1: 32572 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 32572 in 3 places, all below massif's threshold (1.00%)
+      n0: 8288 in 1 place, below massif's threshold (1.00%)
+     n3: 72616 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 32560 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 32560 in 3 places, all below massif's threshold (1.00%)
+      n1: 31768 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 31768 in 3 places, all below massif's threshold (1.00%)
+      n0: 8288 in 1 place, below massif's threshold (1.00%)
+     n0: 16560 in 1 place, below massif's threshold (1.00%)
+    n3: 156416 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 70908 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 31416 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 31416 in 3 places, all below massif's threshold (1.00%)
+      n1: 31216 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 31216 in 3 places, all below massif's threshold (1.00%)
+      n0: 8276 in 1 place, below massif's threshold (1.00%)
+     n3: 68948 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 30860 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 30860 in 3 places, all below massif's threshold (1.00%)
+      n1: 29812 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 29812 in 3 places, all below massif's threshold (1.00%)
+      n0: 8276 in 1 place, below massif's threshold (1.00%)
+     n0: 16560 in 1 place, below massif's threshold (1.00%)
+    n0: 33144 0x10928A: main (merge_sort.cpp:17)
+   n0: 66240 0x10928A: main (merge_sort.cpp:17)
+ n1: 760992 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 760992 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 362936 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 170600 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 78232 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 35188 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 35188 in 3 places, all below massif's threshold (1.00%)
+      n1: 34764 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 34764 in 3 places, all below massif's threshold (1.00%)
+      n0: 8280 in 1 place, below massif's threshold (1.00%)
+     n3: 75808 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 34100 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 34100 in 3 places, all below massif's threshold (1.00%)
+      n1: 33428 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 33428 in 3 places, all below massif's threshold (1.00%)
+      n0: 8280 in 1 place, below massif's threshold (1.00%)
+     n0: 16560 in 1 place, below massif's threshold (1.00%)
+    n3: 159240 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 72748 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 32500 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 32500 in 3 places, all below massif's threshold (1.00%)
+      n1: 31980 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 31980 in 3 places, all below massif's threshold (1.00%)
+      n0: 8268 in 1 place, below massif's threshold (1.00%)
+     n3: 69932 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 31144 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 31144 in 3 places, all below massif's threshold (1.00%)
+      n1: 30520 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 30520 in 3 places, all below massif's threshold (1.00%)
+      n0: 8268 in 1 place, below massif's threshold (1.00%)
+     n0: 16560 in 1 place, below massif's threshold (1.00%)
+    n0: 33096 0x10928A: main (merge_sort.cpp:17)
+   n3: 331816 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 152216 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 68228 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 30040 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 30040 in 3 places, all below massif's threshold (1.00%)
+      n1: 29920 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 29920 in 3 places, all below massif's threshold (1.00%)
+      n0: 8268 in 1 place, below massif's threshold (1.00%)
+     n3: 67452 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 29796 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 29796 in 3 places, all below massif's threshold (1.00%)
+      n1: 29388 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 29388 in 3 places, all below massif's threshold (1.00%)
+      n0: 8268 in 1 place, below massif's threshold (1.00%)
+     n0: 16536 in 1 place, below massif's threshold (1.00%)
+    n3: 146504 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 65984 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 29004 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 29004 in 3 places, all below massif's threshold (1.00%)
+      n1: 28724 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 28724 in 3 places, all below massif's threshold (1.00%)
+      n0: 8256 in 1 place, below massif's threshold (1.00%)
+     n2: 63984 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n0: 35644 in 2 places, all below massif's threshold (1.00%)
+      n1: 28340 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 28340 in 3 places, all below massif's threshold (1.00%)
+     n0: 16536 in 1 place, below massif's threshold (1.00%)
+    n0: 33096 0x10928A: main (merge_sort.cpp:17)
+   n0: 66240 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 22040 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=3125608
+mem_heap_B=1697112
+mem_heap_extra_B=1162976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=3248576
+mem_heap_B=1765016
+mem_heap_extra_B=1218040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=3371608
+mem_heap_B=1839332
+mem_heap_extra_B=1266756
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=3463840
+mem_heap_B=1890184
+mem_heap_extra_B=1308136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=3652008
+mem_heap_B=1986040
+mem_heap_extra_B=1352336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=3777816
+mem_heap_B=2055992
+mem_heap_extra_B=1408192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=3973632
+mem_heap_B=2169716
+mem_heap_extra_B=1490284
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=4074496
+mem_heap_B=2226696
+mem_heap_extra_B=1534168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=4176480
+mem_heap_B=2302680
+mem_heap_extra_B=1560168
+mem_stacks_B=0
+heap_tree=detailed
+n4: 2302680 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1134512 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 1134512 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 548028 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 258200 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 119044 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 54008 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 54008 in 3 places, all below massif's threshold (1.00%)
+      n1: 53600 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 53600 in 3 places, all below massif's threshold (1.00%)
+      n0: 11436 in 1 place, below massif's threshold (1.00%)
+     n3: 116308 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 52956 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 52956 in 3 places, all below massif's threshold (1.00%)
+      n1: 51916 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 51916 in 3 places, all below massif's threshold (1.00%)
+      n0: 11436 in 1 place, below massif's threshold (1.00%)
+     n0: 22848 in 1 place, below massif's threshold (1.00%)
+    n3: 244160 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 112636 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 50892 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 50892 in 3 places, all below massif's threshold (1.00%)
+      n1: 50324 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 50324 in 3 places, all below massif's threshold (1.00%)
+      n0: 11420 in 1 place, below massif's threshold (1.00%)
+     n3: 108676 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 49460 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 49460 in 3 places, all below massif's threshold (1.00%)
+      n1: 47796 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 47796 in 3 places, all below massif's threshold (1.00%)
+      n0: 11420 in 1 place, below massif's threshold (1.00%)
+     n0: 22848 in 1 place, below massif's threshold (1.00%)
+    n0: 45668 0x10928A: main (merge_sort.cpp:17)
+   n3: 495204 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 229140 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 104340 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 46756 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 46756 in 3 places, all below massif's threshold (1.00%)
+      n1: 46164 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 46164 in 3 places, all below massif's threshold (1.00%)
+      n0: 11420 in 1 place, below massif's threshold (1.00%)
+     n3: 101980 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 45712 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 45712 in 3 places, all below massif's threshold (1.00%)
+      n1: 44848 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 44848 in 3 places, all below massif's threshold (1.00%)
+      n0: 11420 in 1 place, below massif's threshold (1.00%)
+     n0: 22820 in 1 place, below massif's threshold (1.00%)
+    n3: 220396 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 100080 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 44440 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 44440 in 3 places, all below massif's threshold (1.00%)
+      n1: 44232 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 44232 in 3 places, all below massif's threshold (1.00%)
+      n0: 11408 in 1 place, below massif's threshold (1.00%)
+     n3: 97496 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 43824 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 43824 in 3 places, all below massif's threshold (1.00%)
+      n1: 42264 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 42264 in 3 places, all below massif's threshold (1.00%)
+      n0: 11408 in 1 place, below massif's threshold (1.00%)
+     n0: 22820 in 1 place, below massif's threshold (1.00%)
+    n0: 45668 0x10928A: main (merge_sort.cpp:17)
+   n0: 91280 0x10928A: main (merge_sort.cpp:17)
+ n1: 1068400 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 1068400 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 513156 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 240508 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 110348 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 49680 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 49680 in 3 places, all below massif's threshold (1.00%)
+      n1: 49256 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 49256 in 3 places, all below massif's threshold (1.00%)
+      n0: 11412 in 1 place, below massif's threshold (1.00%)
+     n3: 107340 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 48520 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 48520 in 3 places, all below massif's threshold (1.00%)
+      n1: 47408 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 47408 in 3 places, all below massif's threshold (1.00%)
+      n0: 11412 in 1 place, below massif's threshold (1.00%)
+     n0: 22820 in 1 place, below massif's threshold (1.00%)
+    n3: 227036 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 103836 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 46480 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 46480 in 3 places, all below massif's threshold (1.00%)
+      n1: 45960 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 45960 in 3 places, all below massif's threshold (1.00%)
+      n0: 11396 in 1 place, below massif's threshold (1.00%)
+     n3: 100380 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 45116 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 45116 in 3 places, all below massif's threshold (1.00%)
+      n1: 43868 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 43868 in 3 places, all below massif's threshold (1.00%)
+      n0: 11396 in 1 place, below massif's threshold (1.00%)
+     n0: 22820 in 1 place, below massif's threshold (1.00%)
+    n0: 45612 0x10928A: main (merge_sort.cpp:17)
+   n3: 463964 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 213336 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 96412 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 42860 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 42860 in 3 places, all below massif's threshold (1.00%)
+      n1: 42156 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 42156 in 3 places, all below massif's threshold (1.00%)
+      n0: 11396 in 1 place, below massif's threshold (1.00%)
+     n3: 94132 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 41588 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 41588 in 3 places, all below massif's threshold (1.00%)
+      n1: 41148 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 41148 in 3 places, all below massif's threshold (1.00%)
+      n0: 11396 in 1 place, below massif's threshold (1.00%)
+     n0: 22792 in 1 place, below massif's threshold (1.00%)
+    n3: 205016 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 92372 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 40652 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 40652 in 3 places, all below massif's threshold (1.00%)
+      n1: 40340 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 40340 in 3 places, all below massif's threshold (1.00%)
+      n0: 11380 in 1 place, below massif's threshold (1.00%)
+     n3: 89852 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 39716 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 39716 in 3 places, all below massif's threshold (1.00%)
+      n1: 38756 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 38756 in 3 places, all below massif's threshold (1.00%)
+      n0: 11380 in 1 place, below massif's threshold (1.00%)
+     n0: 22792 in 1 place, below massif's threshold (1.00%)
+    n0: 45612 0x10928A: main (merge_sort.cpp:17)
+   n0: 91280 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 26040 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=4331424
+mem_heap_B=2357652
+mem_heap_extra_B=1608028
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=4432304
+mem_heap_B=2416144
+mem_heap_extra_B=1650416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=4533176
+mem_heap_B=2479224
+mem_heap_extra_B=1688208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=4684448
+mem_heap_B=2563896
+mem_heap_extra_B=1754808
+mem_stacks_B=0
+heap_tree=detailed
+n4: 2563896 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1268288 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 1268288 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 622972 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 293792 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 135508 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 61516 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 61516 in 3 places, all below massif's threshold (1.00%)
+      n1: 60800 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 60800 in 3 places, all below massif's threshold (1.00%)
+      n0: 13192 in 1 place, below massif's threshold (1.00%)
+     n3: 131928 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 60184 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 60184 in 3 places, all below massif's threshold (1.00%)
+      n1: 58552 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 58552 in 3 places, all below massif's threshold (1.00%)
+      n0: 13192 in 1 place, below massif's threshold (1.00%)
+     n0: 26356 in 1 place, below massif's threshold (1.00%)
+    n3: 276500 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 128528 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 58396 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 58396 in 3 places, all below massif's threshold (1.00%)
+      n1: 56960 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 56960 in 3 places, all below massif's threshold (1.00%)
+      n0: 13172 in 1 place, below massif's threshold (1.00%)
+     n3: 121616 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 56656 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 56656 in 3 places, all below massif's threshold (1.00%)
+      n1: 53540 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 53540 in 3 places, all below massif's threshold (1.00%)
+      n0: 11420 in 1 place, below massif's threshold (1.00%)
+     n0: 26356 in 1 place, below massif's threshold (1.00%)
+    n0: 52680 0x10928A: main (merge_sort.cpp:17)
+   n3: 554036 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 263188 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 120680 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 54260 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 54260 in 3 places, all below massif's threshold (1.00%)
+      n1: 53248 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 53248 in 3 places, all below massif's threshold (1.00%)
+      n0: 13172 in 1 place, below massif's threshold (1.00%)
+     n3: 116184 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 52936 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 52936 in 3 places, all below massif's threshold (1.00%)
+      n1: 50076 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 50076 in 3 places, all below massif's threshold (1.00%)
+      n0: 13172 in 1 place, below massif's threshold (1.00%)
+     n0: 26324 in 1 place, below massif's threshold (1.00%)
+    n3: 245180 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 114084 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 51020 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 51020 in 3 places, all below massif's threshold (1.00%)
+      n1: 49904 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 49904 in 3 places, all below massif's threshold (1.00%)
+      n0: 13160 in 1 place, below massif's threshold (1.00%)
+     n3: 108276 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 49936 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 49936 in 3 places, all below massif's threshold (1.00%)
+      n1: 46932 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 46932 in 3 places, all below massif's threshold (1.00%)
+      n0: 11408 in 1 place, below massif's threshold (1.00%)
+     n0: 22820 in 1 place, below massif's threshold (1.00%)
+    n0: 45668 0x10928A: main (merge_sort.cpp:17)
+   n0: 91280 0x10928A: main (merge_sort.cpp:17)
+ n1: 1193840 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 1193840 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 585512 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 275104 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 126312 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 56944 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 56944 in 3 places, all below massif's threshold (1.00%)
+      n1: 56204 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 56204 in 3 places, all below massif's threshold (1.00%)
+      n0: 13164 in 1 place, below massif's threshold (1.00%)
+     n3: 122468 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 55500 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 55500 in 3 places, all below massif's threshold (1.00%)
+      n1: 53804 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 53804 in 3 places, all below massif's threshold (1.00%)
+      n0: 13164 in 1 place, below massif's threshold (1.00%)
+     n0: 26324 in 1 place, below massif's threshold (1.00%)
+    n3: 257788 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 119240 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 53736 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 53736 in 3 places, all below massif's threshold (1.00%)
+      n1: 52356 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 52356 in 3 places, all below massif's threshold (1.00%)
+      n0: 13148 in 1 place, below massif's threshold (1.00%)
+     n3: 112224 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 51924 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 51924 in 3 places, all below massif's threshold (1.00%)
+      n1: 48904 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 48904 in 3 places, all below massif's threshold (1.00%)
+      n0: 11396 in 1 place, below massif's threshold (1.00%)
+     n0: 26324 in 1 place, below massif's threshold (1.00%)
+    n0: 52620 0x10928A: main (merge_sort.cpp:17)
+   n3: 517048 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 244364 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 111284 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 49628 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 49628 in 3 places, all below massif's threshold (1.00%)
+      n1: 48508 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 48508 in 3 places, all below massif's threshold (1.00%)
+      n0: 13148 in 1 place, below massif's threshold (1.00%)
+     n3: 106784 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 48076 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 48076 in 3 places, all below massif's threshold (1.00%)
+      n1: 45560 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 45560 in 3 places, all below massif's threshold (1.00%)
+      n0: 13148 in 1 place, below massif's threshold (1.00%)
+     n0: 26296 in 1 place, below massif's threshold (1.00%)
+    n3: 227072 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 104840 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 46404 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 46404 in 3 places, all below massif's threshold (1.00%)
+      n1: 45304 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 45304 in 3 places, all below massif's threshold (1.00%)
+      n0: 13132 in 1 place, below massif's threshold (1.00%)
+     n2: 99440 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n0: 54212 in 2 places, all below massif's threshold (1.00%)
+      n1: 45228 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 45228 in 3 places, all below massif's threshold (1.00%)
+     n0: 22792 in 1 place, below massif's threshold (1.00%)
+    n0: 45612 0x10928A: main (merge_sort.cpp:17)
+   n0: 91280 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 28040 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=4826352
+mem_heap_B=2664472
+mem_heap_extra_B=1796136
+mem_stacks_B=0
+heap_tree=detailed
+n4: 2664472 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1319468 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 1319468 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 636248 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 298812 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 137600 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 62408 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 62408 in 3 places, all below massif's threshold (1.00%)
+      n1: 62000 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 62000 in 3 places, all below massif's threshold (1.00%)
+      n0: 13192 in 1 place, below massif's threshold (1.00%)
+     n3: 134856 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 61352 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 61352 in 3 places, all below massif's threshold (1.00%)
+      n1: 60312 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 60312 in 3 places, all below massif's threshold (1.00%)
+      n0: 13192 in 1 place, below massif's threshold (1.00%)
+     n0: 26356 in 1 place, below massif's threshold (1.00%)
+    n3: 284756 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 131180 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 59288 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 59288 in 3 places, all below massif's threshold (1.00%)
+      n1: 58720 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 58720 in 3 places, all below massif's threshold (1.00%)
+      n0: 13172 in 1 place, below massif's threshold (1.00%)
+     n3: 127220 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 57856 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 57856 in 3 places, all below massif's threshold (1.00%)
+      n1: 56192 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 56192 in 3 places, all below massif's threshold (1.00%)
+      n0: 13172 in 1 place, below massif's threshold (1.00%)
+     n0: 26356 in 1 place, below massif's threshold (1.00%)
+    n0: 52680 0x10928A: main (merge_sort.cpp:17)
+   n3: 577920 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 269100 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 122884 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 55152 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 55152 in 3 places, all below massif's threshold (1.00%)
+      n1: 54560 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 54560 in 3 places, all below massif's threshold (1.00%)
+      n0: 13172 in 1 place, below massif's threshold (1.00%)
+     n3: 119892 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 54108 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 54108 in 3 places, all below massif's threshold (1.00%)
+      n1: 52612 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 52612 in 3 places, all below massif's threshold (1.00%)
+      n0: 13172 in 1 place, below massif's threshold (1.00%)
+     n0: 26324 in 1 place, below massif's threshold (1.00%)
+    n3: 256140 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 116400 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 51788 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 51788 in 3 places, all below massif's threshold (1.00%)
+      n1: 51452 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 51452 in 3 places, all below massif's threshold (1.00%)
+      n0: 13160 in 1 place, below massif's threshold (1.00%)
+     n3: 113416 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 50908 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 50908 in 3 places, all below massif's threshold (1.00%)
+      n1: 49348 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 49348 in 3 places, all below massif's threshold (1.00%)
+      n0: 13160 in 1 place, below massif's threshold (1.00%)
+     n0: 26324 in 1 place, below massif's threshold (1.00%)
+    n0: 52680 0x10928A: main (merge_sort.cpp:17)
+   n0: 105300 0x10928A: main (merge_sort.cpp:17)
+ n1: 1243236 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 1243236 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 598236 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 279924 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 128308 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 57788 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 57788 in 3 places, all below massif's threshold (1.00%)
+      n1: 57356 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 57356 in 3 places, all below massif's threshold (1.00%)
+      n0: 13164 in 1 place, below massif's threshold (1.00%)
+     n3: 125292 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 56620 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 56620 in 3 places, all below massif's threshold (1.00%)
+      n1: 55508 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 55508 in 3 places, all below massif's threshold (1.00%)
+      n0: 13164 in 1 place, below massif's threshold (1.00%)
+     n0: 26324 in 1 place, below massif's threshold (1.00%)
+    n3: 265692 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 121788 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 54580 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 54580 in 3 places, all below massif's threshold (1.00%)
+      n1: 54060 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 54060 in 3 places, all below massif's threshold (1.00%)
+      n0: 13148 in 1 place, below massif's threshold (1.00%)
+     n3: 117580 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 53040 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 53040 in 3 places, all below massif's threshold (1.00%)
+      n1: 51392 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 51392 in 3 places, all below massif's threshold (1.00%)
+      n0: 13148 in 1 place, below massif's threshold (1.00%)
+     n0: 26324 in 1 place, below massif's threshold (1.00%)
+    n0: 52620 0x10928A: main (merge_sort.cpp:17)
+   n3: 539700 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 249632 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 113188 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 50376 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 50376 in 3 places, all below massif's threshold (1.00%)
+      n1: 49664 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 49664 in 3 places, all below massif's threshold (1.00%)
+      n0: 13148 in 1 place, below massif's threshold (1.00%)
+     n3: 110148 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 49096 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 49096 in 3 places, all below massif's threshold (1.00%)
+      n1: 47904 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 47904 in 3 places, all below massif's threshold (1.00%)
+      n0: 13148 in 1 place, below massif's threshold (1.00%)
+     n0: 26296 in 1 place, below massif's threshold (1.00%)
+    n3: 237448 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 106836 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 47008 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 47008 in 3 places, all below massif's threshold (1.00%)
+      n1: 46696 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 46696 in 3 places, all below massif's threshold (1.00%)
+      n0: 13132 in 1 place, below massif's threshold (1.00%)
+     n3: 104316 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 46072 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 46072 in 3 places, all below massif's threshold (1.00%)
+      n1: 45112 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 45112 in 3 places, all below massif's threshold (1.00%)
+      n0: 13132 in 1 place, below massif's threshold (1.00%)
+     n0: 26296 in 1 place, below massif's threshold (1.00%)
+    n0: 52620 0x10928A: main (merge_sort.cpp:17)
+   n0: 105300 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 28040 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=4985312
+mem_heap_B=2720444
+mem_heap_extra_B=1843012
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=5086280
+mem_heap_B=2776764
+mem_heap_extra_B=1887660
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=5188464
+mem_heap_B=2845348
+mem_heap_extra_B=1921260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=5289312
+mem_heap_B=2899320
+mem_heap_extra_B=1968136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=5390280
+mem_heap_B=2955640
+mem_heap_extra_B=2012784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=5584640
+mem_heap_B=3056264
+mem_heap_extra_B=2046408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=5737680
+mem_heap_B=3144216
+mem_heap_extra_B=2111496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=5838520
+mem_heap_B=3197548
+mem_heap_extra_B=2159004
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=5941088
+mem_heap_B=3266164
+mem_heap_extra_B=2192956
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=6092968
+mem_heap_B=3353084
+mem_heap_extra_B=2257916
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=6260848
+mem_heap_B=3472056
+mem_heap_extra_B=2306824
+mem_stacks_B=0
+heap_tree=detailed
+n4: 3472056 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1727124 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 1727124 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 826876 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 386376 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 177500 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 80416 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 80416 in 3 places, all below massif's threshold (1.00%)
+      n1: 80008 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 80008 in 3 places, all below massif's threshold (1.00%)
+      n0: 17076 in 1 place, below massif's threshold (1.00%)
+     n3: 174756 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 79360 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 79360 in 3 places, all below massif's threshold (1.00%)
+      n1: 78320 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 78320 in 3 places, all below massif's threshold (1.00%)
+      n0: 17076 in 1 place, below massif's threshold (1.00%)
+     n0: 34120 in 1 place, below massif's threshold (1.00%)
+    n3: 372296 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 171072 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 77296 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 77296 in 3 places, all below massif's threshold (1.00%)
+      n1: 76720 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 76720 in 3 places, all below massif's threshold (1.00%)
+      n0: 17056 in 1 place, below massif's threshold (1.00%)
+     n3: 167104 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 75856 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 75856 in 3 places, all below massif's threshold (1.00%)
+      n1: 74192 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 74192 in 3 places, all below massif's threshold (1.00%)
+      n0: 17056 in 1 place, below massif's threshold (1.00%)
+     n0: 34120 in 1 place, below massif's threshold (1.00%)
+    n0: 68204 0x10928A: main (merge_sort.cpp:17)
+   n3: 763908 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 356316 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 162744 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 73152 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 73152 in 3 places, all below massif's threshold (1.00%)
+      n1: 72536 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 72536 in 3 places, all below massif's threshold (1.00%)
+      n0: 17056 in 1 place, below massif's threshold (1.00%)
+     n3: 159488 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 72024 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 72024 in 3 places, all below massif's threshold (1.00%)
+      n1: 70408 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 70408 in 3 places, all below massif's threshold (1.00%)
+      n0: 17056 in 1 place, below massif's threshold (1.00%)
+     n0: 34084 in 1 place, below massif's threshold (1.00%)
+    n3: 339388 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 155192 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 69584 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 69584 in 3 places, all below massif's threshold (1.00%)
+      n1: 68568 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 68568 in 3 places, all below massif's threshold (1.00%)
+      n0: 17040 in 1 place, below massif's threshold (1.00%)
+     n3: 150112 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 67680 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 67680 in 3 places, all below massif's threshold (1.00%)
+      n1: 65392 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 65392 in 3 places, all below massif's threshold (1.00%)
+      n0: 17040 in 1 place, below massif's threshold (1.00%)
+     n0: 34084 in 1 place, below massif's threshold (1.00%)
+    n0: 68204 0x10928A: main (merge_sort.cpp:17)
+   n0: 136340 0x10928A: main (merge_sort.cpp:17)
+ n1: 1639164 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 1639164 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 785952 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 366604 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 167780 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 75584 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 75584 in 3 places, all below massif's threshold (1.00%)
+      n1: 75152 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 75152 in 3 places, all below massif's threshold (1.00%)
+      n0: 17044 in 1 place, below massif's threshold (1.00%)
+     n3: 164740 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 74408 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 74408 in 3 places, all below massif's threshold (1.00%)
+      n1: 73288 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 73288 in 3 places, all below massif's threshold (1.00%)
+      n0: 17044 in 1 place, below massif's threshold (1.00%)
+     n0: 34084 in 1 place, below massif's threshold (1.00%)
+    n3: 351212 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 160920 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 72336 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 72336 in 3 places, all below massif's threshold (1.00%)
+      n1: 71560 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 71560 in 3 places, all below massif's threshold (1.00%)
+      n0: 17024 in 1 place, below massif's threshold (1.00%)
+     n3: 156208 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 70416 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 70416 in 3 places, all below massif's threshold (1.00%)
+      n1: 68768 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 68768 in 3 places, all below massif's threshold (1.00%)
+      n0: 17024 in 1 place, below massif's threshold (1.00%)
+     n0: 34084 in 1 place, below massif's threshold (1.00%)
+    n0: 68136 0x10928A: main (merge_sort.cpp:17)
+   n3: 716872 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 333748 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 151816 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 67752 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 67752 in 3 places, all below massif's threshold (1.00%)
+      n1: 67040 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 67040 in 3 places, all below massif's threshold (1.00%)
+      n0: 17024 in 1 place, below massif's threshold (1.00%)
+     n3: 147880 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 66216 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 66216 in 3 places, all below massif's threshold (1.00%)
+      n1: 64640 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 64640 in 3 places, all below massif's threshold (1.00%)
+      n0: 17024 in 1 place, below massif's threshold (1.00%)
+     n0: 34052 in 1 place, below massif's threshold (1.00%)
+    n3: 314988 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 143288 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 63744 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 63744 in 3 places, all below massif's threshold (1.00%)
+      n1: 62536 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 62536 in 3 places, all below massif's threshold (1.00%)
+      n0: 17008 in 1 place, below massif's threshold (1.00%)
+     n3: 137648 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 61312 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 61312 in 3 places, all below massif's threshold (1.00%)
+      n1: 59328 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 59328 in 3 places, all below massif's threshold (1.00%)
+      n0: 17008 in 1 place, below massif's threshold (1.00%)
+     n0: 34052 in 1 place, below massif's threshold (1.00%)
+    n0: 68136 0x10928A: main (merge_sort.cpp:17)
+   n0: 136340 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 32040 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=6326960
+mem_heap_B=3474056
+mem_heap_extra_B=2306824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=6401616
+mem_heap_B=3512680
+mem_heap_extra_B=2342856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=6475360
+mem_heap_B=3551084
+mem_heap_extra_B=2378196
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=6549112
+mem_heap_B=3596516
+mem_heap_extra_B=2406516
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=6622848
+mem_heap_B=3636260
+mem_heap_extra_B=2440508
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=6696600
+mem_heap_B=3688996
+mem_heap_extra_B=2461524
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=6770336
+mem_heap_B=3728800
+mem_heap_extra_B=2495456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=6844088
+mem_heap_B=3774172
+mem_heap_extra_B=2523836
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=6919832
+mem_heap_B=3814592
+mem_heap_extra_B=2559160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=6993816
+mem_heap_B=3852648
+mem_heap_extra_B=2595088
+mem_stacks_B=0
+heap_tree=detailed
+n4: 3852648 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1919876 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 1919876 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 934292 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 438128 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 202908 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 93080 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 93080 in 3 places, all below massif's threshold (1.00%)
+      n1: 90624 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 90624 in 3 places, all below massif's threshold (1.00%)
+      n0: 19204 in 1 place, below massif's threshold (1.00%)
+     n3: 196844 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 89464 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 89464 in 3 places, all below massif's threshold (1.00%)
+      n1: 88176 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 88176 in 3 places, all below massif's threshold (1.00%)
+      n0: 19204 in 1 place, below massif's threshold (1.00%)
+     n0: 38376 in 1 place, below massif's threshold (1.00%)
+    n3: 419448 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 192648 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 87144 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 87144 in 3 places, all below massif's threshold (1.00%)
+      n1: 86320 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 86320 in 3 places, all below massif's threshold (1.00%)
+      n0: 19184 in 1 place, below massif's threshold (1.00%)
+     n3: 188424 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 85456 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 85456 in 3 places, all below massif's threshold (1.00%)
+      n1: 83784 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 83784 in 3 places, all below massif's threshold (1.00%)
+      n0: 19184 in 1 place, below massif's threshold (1.00%)
+     n0: 38376 in 1 place, below massif's threshold (1.00%)
+    n0: 76716 0x10928A: main (merge_sort.cpp:17)
+   n3: 849244 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 402836 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 184000 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 82720 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 82720 in 3 places, all below massif's threshold (1.00%)
+      n1: 82096 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 82096 in 3 places, all below massif's threshold (1.00%)
+      n0: 19184 in 1 place, below massif's threshold (1.00%)
+     n3: 180496 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 81464 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 81464 in 3 places, all below massif's threshold (1.00%)
+      n1: 79848 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 79848 in 3 places, all below massif's threshold (1.00%)
+      n0: 19184 in 1 place, below massif's threshold (1.00%)
+     n0: 38340 in 1 place, below massif's threshold (1.00%)
+    n3: 378204 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 176200 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 79024 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 79024 in 3 places, all below massif's threshold (1.00%)
+      n1: 78008 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 78008 in 3 places, all below massif's threshold (1.00%)
+      n0: 19168 in 1 place, below massif's threshold (1.00%)
+     n3: 167920 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 77120 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 77120 in 3 places, all below massif's threshold (1.00%)
+      n1: 73760 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 73760 in 3 places, all below massif's threshold (1.00%)
+      n0: 17040 in 1 place, below massif's threshold (1.00%)
+     n0: 34084 in 1 place, below massif's threshold (1.00%)
+    n0: 68204 0x10928A: main (merge_sort.cpp:17)
+   n0: 136340 0x10928A: main (merge_sort.cpp:17)
+ n1: 1825004 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 1825004 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 887884 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 414076 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 190028 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 86280 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 86280 in 3 places, all below massif's threshold (1.00%)
+      n1: 84576 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 84576 in 3 places, all below massif's threshold (1.00%)
+      n0: 19172 in 1 place, below massif's threshold (1.00%)
+     n3: 185708 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 83832 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 83832 in 3 places, all below massif's threshold (1.00%)
+      n1: 82704 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 82704 in 3 places, all below massif's threshold (1.00%)
+      n0: 19172 in 1 place, below massif's threshold (1.00%)
+     n0: 38340 in 1 place, below massif's threshold (1.00%)
+    n3: 397164 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 181768 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 81696 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 81696 in 3 places, all below massif's threshold (1.00%)
+      n1: 80920 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 80920 in 3 places, all below massif's threshold (1.00%)
+      n0: 19152 in 1 place, below massif's threshold (1.00%)
+     n3: 177056 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 79776 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 79776 in 3 places, all below massif's threshold (1.00%)
+      n1: 78128 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 78128 in 3 places, all below massif's threshold (1.00%)
+      n0: 19152 in 1 place, below massif's threshold (1.00%)
+     n0: 38340 in 1 place, below massif's threshold (1.00%)
+    n0: 76644 0x10928A: main (merge_sort.cpp:17)
+   n3: 800780 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 379696 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 172664 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 77112 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 77112 in 3 places, all below massif's threshold (1.00%)
+      n1: 76400 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 76400 in 3 places, all below massif's threshold (1.00%)
+      n0: 19152 in 1 place, below massif's threshold (1.00%)
+     n3: 168728 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 75576 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 75576 in 3 places, all below massif's threshold (1.00%)
+      n1: 74000 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 74000 in 3 places, all below massif's threshold (1.00%)
+      n0: 19152 in 1 place, below massif's threshold (1.00%)
+     n0: 38304 in 1 place, below massif's threshold (1.00%)
+    n3: 352948 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 164132 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 73104 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 73104 in 3 places, all below massif's threshold (1.00%)
+      n1: 71896 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 71896 in 3 places, all below massif's threshold (1.00%)
+      n0: 19132 in 1 place, below massif's threshold (1.00%)
+     n3: 154764 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 70668 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 70668 in 3 places, all below massif's threshold (1.00%)
+      n1: 67088 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 67088 in 3 places, all below massif's threshold (1.00%)
+      n0: 17008 in 1 place, below massif's threshold (1.00%)
+     n0: 34052 in 1 place, below massif's threshold (1.00%)
+    n0: 68136 0x10928A: main (merge_sort.cpp:17)
+   n0: 136340 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 34040 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=7060416
+mem_heap_B=3919120
+mem_heap_extra_B=2595216
+mem_stacks_B=0
+heap_tree=detailed
+n4: 3919120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1952856 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 1952856 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 934292 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 438128 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 202908 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 93080 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 93080 in 3 places, all below massif's threshold (1.00%)
+      n1: 90624 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 90624 in 3 places, all below massif's threshold (1.00%)
+      n0: 19204 in 1 place, below massif's threshold (1.00%)
+     n3: 196844 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 89464 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 89464 in 3 places, all below massif's threshold (1.00%)
+      n1: 88176 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 88176 in 3 places, all below massif's threshold (1.00%)
+      n0: 19204 in 1 place, below massif's threshold (1.00%)
+     n0: 38376 in 1 place, below massif's threshold (1.00%)
+    n3: 419448 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 192648 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 87144 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 87144 in 3 places, all below massif's threshold (1.00%)
+      n1: 86320 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 86320 in 3 places, all below massif's threshold (1.00%)
+      n0: 19184 in 1 place, below massif's threshold (1.00%)
+     n3: 188424 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 85456 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 85456 in 3 places, all below massif's threshold (1.00%)
+      n1: 83784 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 83784 in 3 places, all below massif's threshold (1.00%)
+      n0: 19184 in 1 place, below massif's threshold (1.00%)
+     n0: 38376 in 1 place, below massif's threshold (1.00%)
+    n0: 76716 0x10928A: main (merge_sort.cpp:17)
+   n3: 865204 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 402836 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 184000 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 82720 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 82720 in 3 places, all below massif's threshold (1.00%)
+      n1: 82096 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 82096 in 3 places, all below massif's threshold (1.00%)
+      n0: 19184 in 1 place, below massif's threshold (1.00%)
+     n3: 180496 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 81464 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 81464 in 3 places, all below massif's threshold (1.00%)
+      n1: 79848 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 79848 in 3 places, all below massif's threshold (1.00%)
+      n0: 19184 in 1 place, below massif's threshold (1.00%)
+     n0: 38340 in 1 place, below massif's threshold (1.00%)
+    n3: 385652 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 176200 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 79024 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 79024 in 3 places, all below massif's threshold (1.00%)
+      n1: 78008 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 78008 in 3 places, all below massif's threshold (1.00%)
+      n0: 19168 in 1 place, below massif's threshold (1.00%)
+     n3: 171112 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 77120 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 77120 in 3 places, all below massif's threshold (1.00%)
+      n1: 74824 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 74824 in 3 places, all below massif's threshold (1.00%)
+      n0: 19168 in 1 place, below massif's threshold (1.00%)
+     n0: 38340 in 1 place, below massif's threshold (1.00%)
+    n0: 76716 0x10928A: main (merge_sort.cpp:17)
+   n0: 153360 0x10928A: main (merge_sort.cpp:17)
+ n1: 1858496 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 1858496 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 887884 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 414076 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 190028 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 86280 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 86280 in 3 places, all below massif's threshold (1.00%)
+      n1: 84576 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 84576 in 3 places, all below massif's threshold (1.00%)
+      n0: 19172 in 1 place, below massif's threshold (1.00%)
+     n3: 185708 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 83832 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 83832 in 3 places, all below massif's threshold (1.00%)
+      n1: 82704 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 82704 in 3 places, all below massif's threshold (1.00%)
+      n0: 19172 in 1 place, below massif's threshold (1.00%)
+     n0: 38340 in 1 place, below massif's threshold (1.00%)
+    n3: 397164 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 181768 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 81696 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 81696 in 3 places, all below massif's threshold (1.00%)
+      n1: 80920 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 80920 in 3 places, all below massif's threshold (1.00%)
+      n0: 19152 in 1 place, below massif's threshold (1.00%)
+     n3: 177056 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 79776 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 79776 in 3 places, all below massif's threshold (1.00%)
+      n1: 78128 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 78128 in 3 places, all below massif's threshold (1.00%)
+      n0: 19152 in 1 place, below massif's threshold (1.00%)
+     n0: 38340 in 1 place, below massif's threshold (1.00%)
+    n0: 76644 0x10928A: main (merge_sort.cpp:17)
+   n3: 817252 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 379696 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 172664 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 77112 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 77112 in 3 places, all below massif's threshold (1.00%)
+      n1: 76400 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 76400 in 3 places, all below massif's threshold (1.00%)
+      n0: 19152 in 1 place, below massif's threshold (1.00%)
+     n3: 168728 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 75576 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 75576 in 3 places, all below massif's threshold (1.00%)
+      n1: 74000 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 74000 in 3 places, all below massif's threshold (1.00%)
+      n0: 19152 in 1 place, below massif's threshold (1.00%)
+     n0: 38304 in 1 place, below massif's threshold (1.00%)
+    n3: 360912 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 164132 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 73104 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 73104 in 3 places, all below massif's threshold (1.00%)
+      n1: 71896 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 71896 in 3 places, all below massif's threshold (1.00%)
+      n0: 19132 in 1 place, below massif's threshold (1.00%)
+     n3: 158476 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 70668 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 70668 in 3 places, all below massif's threshold (1.00%)
+      n1: 68676 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 68676 in 3 places, all below massif's threshold (1.00%)
+      n0: 19132 in 1 place, below massif's threshold (1.00%)
+     n0: 38304 in 1 place, below massif's threshold (1.00%)
+    n0: 76644 0x10928A: main (merge_sort.cpp:17)
+   n0: 153360 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 34040 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=7134152
+mem_heap_B=3922372
+mem_heap_extra_B=2597588
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=7207920
+mem_heap_B=3959140
+mem_heap_extra_B=2634588
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=7281656
+mem_heap_B=3999456
+mem_heap_extra_B=2668008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=7355400
+mem_heap_B=4044496
+mem_heap_extra_B=2696712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=7429152
+mem_heap_B=4083220
+mem_heap_extra_B=2731740
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=7507808
+mem_heap_B=4140632
+mem_heap_extra_B=2752984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=7581544
+mem_heap_B=4176708
+mem_heap_extra_B=2790644
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=7655288
+mem_heap_B=4217372
+mem_heap_extra_B=2823724
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=7729040
+mem_heap_B=4262448
+mem_heap_extra_B=2852400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=7802776
+mem_heap_B=4301284
+mem_heap_extra_B=2887300
+mem_stacks_B=0
+heap_tree=detailed
+n4: 4301284 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2148496 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 2148496 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 1045516 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 493652 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 230488 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 106216 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 106216 in 3 places, all below massif's threshold (1.00%)
+      n1: 102812 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 102812 in 3 places, all below massif's threshold (1.00%)
+      n0: 21460 in 1 place, below massif's threshold (1.00%)
+     n3: 220280 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 100672 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 100672 in 3 places, all below massif's threshold (1.00%)
+      n1: 98148 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 98148 in 3 places, all below massif's threshold (1.00%)
+      n0: 21460 in 1 place, below massif's threshold (1.00%)
+     n0: 42884 in 1 place, below massif's threshold (1.00%)
+    n3: 466136 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 215248 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 97424 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 97424 in 3 places, all below massif's threshold (1.00%)
+      n1: 96388 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 96388 in 3 places, all below massif's threshold (1.00%)
+      n0: 21436 in 1 place, below massif's threshold (1.00%)
+     n3: 208004 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 95264 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 95264 in 3 places, all below massif's threshold (1.00%)
+      n1: 91304 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 91304 in 3 places, all below massif's threshold (1.00%)
+      n0: 21436 in 1 place, below massif's threshold (1.00%)
+     n0: 42884 in 1 place, below massif's threshold (1.00%)
+    n0: 85728 0x10928A: main (merge_sort.cpp:17)
+   n3: 949620 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 449620 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 205628 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 92492 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 92492 in 3 places, all below massif's threshold (1.00%)
+      n1: 91700 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 91700 in 3 places, all below massif's threshold (1.00%)
+      n0: 21436 in 1 place, below massif's threshold (1.00%)
+     n3: 201148 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 91216 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 91216 in 3 places, all below massif's threshold (1.00%)
+      n1: 88496 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 88496 in 3 places, all below massif's threshold (1.00%)
+      n0: 21436 in 1 place, below massif's threshold (1.00%)
+     n0: 42844 in 1 place, below massif's threshold (1.00%)
+    n3: 423284 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 197200 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 88736 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 88736 in 3 places, all below massif's threshold (1.00%)
+      n1: 87044 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 87044 in 3 places, all below massif's threshold (1.00%)
+      n0: 21420 in 1 place, below massif's threshold (1.00%)
+     n3: 187744 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 86480 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 86480 in 3 places, all below massif's threshold (1.00%)
+      n1: 82096 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 82096 in 3 places, all below massif's threshold (1.00%)
+      n0: 19168 in 1 place, below massif's threshold (1.00%)
+     n0: 38340 in 1 place, below massif's threshold (1.00%)
+    n0: 76716 0x10928A: main (merge_sort.cpp:17)
+   n0: 153360 0x10928A: main (merge_sort.cpp:17)
+ n1: 2043020 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 2043020 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 990504 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 463464 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 214184 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 97696 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 97696 in 3 places, all below massif's threshold (1.00%)
+      n1: 95064 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 95064 in 3 places, all below massif's threshold (1.00%)
+      n0: 21424 in 1 place, below massif's threshold (1.00%)
+     n3: 206436 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 93328 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 93328 in 3 places, all below massif's threshold (1.00%)
+      n1: 91684 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 91684 in 3 places, all below massif's threshold (1.00%)
+      n0: 21424 in 1 place, below massif's threshold (1.00%)
+     n0: 42844 in 1 place, below massif's threshold (1.00%)
+    n3: 441388 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 202724 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 91148 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 91148 in 3 places, all below massif's threshold (1.00%)
+      n1: 90172 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 90172 in 3 places, all below massif's threshold (1.00%)
+      n0: 21404 in 1 place, below massif's threshold (1.00%)
+     n3: 195820 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 89072 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 89072 in 3 places, all below massif's threshold (1.00%)
+      n1: 85344 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 85344 in 3 places, all below massif's threshold (1.00%)
+      n0: 21404 in 1 place, below massif's threshold (1.00%)
+     n0: 42844 in 1 place, below massif's threshold (1.00%)
+    n0: 85652 0x10928A: main (merge_sort.cpp:17)
+   n3: 899156 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 424912 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 193596 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 86564 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 86564 in 3 places, all below massif's threshold (1.00%)
+      n1: 85628 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 85628 in 3 places, all below massif's threshold (1.00%)
+      n0: 21404 in 1 place, below massif's threshold (1.00%)
+     n3: 188508 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 84884 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 84884 in 3 places, all below massif's threshold (1.00%)
+      n1: 82220 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 82220 in 3 places, all below massif's threshold (1.00%)
+      n0: 21404 in 1 place, below massif's threshold (1.00%)
+     n0: 42808 in 1 place, below massif's threshold (1.00%)
+    n3: 397600 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 184556 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 82428 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 82428 in 3 places, all below massif's threshold (1.00%)
+      n1: 80744 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 80744 in 3 places, all below massif's threshold (1.00%)
+      n0: 21384 in 1 place, below massif's threshold (1.00%)
+     n3: 174740 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 79836 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 79836 in 3 places, all below massif's threshold (1.00%)
+      n1: 75772 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 75772 in 3 places, all below massif's threshold (1.00%)
+      n0: 19132 in 1 place, below massif's threshold (1.00%)
+     n0: 38304 in 1 place, below massif's threshold (1.00%)
+    n0: 76644 0x10928A: main (merge_sort.cpp:17)
+   n0: 153360 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 36040 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=7885088
+mem_heap_B=4360144
+mem_heap_extra_B=2910752
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=7921168
+mem_heap_B=4396184
+mem_heap_extra_B=2910792
+mem_stacks_B=0
+heap_tree=detailed
+n4: 4396184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2196388 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 2196388 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 1052504 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 496444 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 231860 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 106840 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 106840 in 3 places, all below massif's threshold (1.00%)
+      n1: 103560 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 103560 in 3 places, all below massif's threshold (1.00%)
+      n0: 21460 in 1 place, below massif's threshold (1.00%)
+     n3: 221700 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 101176 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 101176 in 3 places, all below massif's threshold (1.00%)
+      n1: 99064 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 99064 in 3 places, all below massif's threshold (1.00%)
+      n0: 21460 in 1 place, below massif's threshold (1.00%)
+     n0: 42884 in 1 place, below massif's threshold (1.00%)
+    n3: 470332 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 216276 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 97832 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 97832 in 3 places, all below massif's threshold (1.00%)
+      n1: 97008 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 97008 in 3 places, all below massif's threshold (1.00%)
+      n0: 21436 in 1 place, below massif's threshold (1.00%)
+     n3: 211172 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 95808 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 95808 in 3 places, all below massif's threshold (1.00%)
+      n1: 93928 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 93928 in 3 places, all below massif's threshold (1.00%)
+      n0: 21436 in 1 place, below massif's threshold (1.00%)
+     n0: 42884 in 1 place, below massif's threshold (1.00%)
+    n0: 85728 0x10928A: main (merge_sort.cpp:17)
+   n3: 972504 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 452420 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 206540 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 92864 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 92864 in 3 places, all below massif's threshold (1.00%)
+      n1: 92240 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 92240 in 3 places, all below massif's threshold (1.00%)
+      n0: 21436 in 1 place, below massif's threshold (1.00%)
+     n3: 203036 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 91608 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 91608 in 3 places, all below massif's threshold (1.00%)
+      n1: 89992 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 89992 in 3 places, all below massif's threshold (1.00%)
+      n0: 21436 in 1 place, below massif's threshold (1.00%)
+     n0: 42844 in 1 place, below massif's threshold (1.00%)
+    n3: 434356 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 198404 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 89104 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 89104 in 3 places, all below massif's threshold (1.00%)
+      n1: 87880 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 87880 in 3 places, all below massif's threshold (1.00%)
+      n0: 21420 in 1 place, below massif's threshold (1.00%)
+     n3: 193108 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 86992 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 86992 in 3 places, all below massif's threshold (1.00%)
+      n1: 84696 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 84696 in 3 places, all below massif's threshold (1.00%)
+      n0: 21420 in 1 place, below massif's threshold (1.00%)
+     n0: 42844 in 1 place, below massif's threshold (1.00%)
+    n0: 85728 0x10928A: main (merge_sort.cpp:17)
+   n0: 171380 0x10928A: main (merge_sort.cpp:17)
+ n1: 2090028 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 2090028 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 996820 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 465780 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 215296 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 98200 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 98200 in 3 places, all below massif's threshold (1.00%)
+      n1: 95672 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 95672 in 3 places, all below massif's threshold (1.00%)
+      n0: 21424 in 1 place, below massif's threshold (1.00%)
+     n3: 207640 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 93700 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 93700 in 3 places, all below massif's threshold (1.00%)
+      n1: 92516 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 92516 in 3 places, all below massif's threshold (1.00%)
+      n0: 21424 in 1 place, below massif's threshold (1.00%)
+     n0: 42844 in 1 place, below massif's threshold (1.00%)
+    n3: 445388 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 203628 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 91500 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 91500 in 3 places, all below massif's threshold (1.00%)
+      n1: 90724 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 90724 in 3 places, all below massif's threshold (1.00%)
+      n0: 21404 in 1 place, below massif's threshold (1.00%)
+     n3: 198916 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 89580 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 89580 in 3 places, all below massif's threshold (1.00%)
+      n1: 87932 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 87932 in 3 places, all below massif's threshold (1.00%)
+      n0: 21404 in 1 place, below massif's threshold (1.00%)
+     n0: 42844 in 1 place, below massif's threshold (1.00%)
+    n0: 85652 0x10928A: main (merge_sort.cpp:17)
+   n3: 921828 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 427584 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 194460 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 86916 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 86916 in 3 places, all below massif's threshold (1.00%)
+      n1: 86140 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 86140 in 3 places, all below massif's threshold (1.00%)
+      n0: 21404 in 1 place, below massif's threshold (1.00%)
+     n3: 190316 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 85244 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 85244 in 3 places, all below massif's threshold (1.00%)
+      n1: 83668 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 83668 in 3 places, all below massif's threshold (1.00%)
+      n0: 21404 in 1 place, below massif's threshold (1.00%)
+     n0: 42808 in 1 place, below massif's threshold (1.00%)
+    n3: 408592 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 185720 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 82772 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 82772 in 3 places, all below massif's threshold (1.00%)
+      n1: 81564 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 81564 in 3 places, all below massif's threshold (1.00%)
+      n0: 21384 in 1 place, below massif's threshold (1.00%)
+     n3: 180064 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 80336 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 80336 in 3 places, all below massif's threshold (1.00%)
+      n1: 78344 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 78344 in 3 places, all below massif's threshold (1.00%)
+      n0: 21384 in 1 place, below massif's threshold (1.00%)
+     n0: 42808 in 1 place, below massif's threshold (1.00%)
+    n0: 85652 0x10928A: main (merge_sort.cpp:17)
+   n0: 171380 0x10928A: main (merge_sort.cpp:17)
+ n1: 73728 0x491C401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 36040 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=72
+#-----------
+time=7995280
+mem_heap_B=4398184
+mem_heap_extra_B=2910792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=8069032
+mem_heap_B=4434580
+mem_heap_extra_B=2948148
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=8142768
+mem_heap_B=4474676
+mem_heap_extra_B=2981788
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=8216584
+mem_heap_B=4518924
+mem_heap_extra_B=3011356
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=8290328
+mem_heap_B=4559480
+mem_heap_extra_B=3044544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=8364896
+mem_heap_B=4598416
+mem_heap_extra_B=3080176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=8439120
+mem_heap_B=4651400
+mem_heap_extra_B=3101416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=8512872
+mem_heap_B=4691464
+mem_heap_extra_B=3135104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=8590288
+mem_heap_B=4738968
+mem_heap_extra_B=3165016
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=8664040
+mem_heap_B=4775364
+mem_heap_extra_B=3202372
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4775364 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2391860 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 2391860 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 1164720 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 553244 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 259492 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 119656 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 119656 in 3 places, all below massif's threshold (1.00%)
+      n1: 115996 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 115996 in 3 places, all below massif's threshold (1.00%)
+      n0: 23840 in 1 place, below massif's threshold (1.00%)
+     n3: 246112 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 113208 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 113208 in 3 places, all below massif's threshold (1.00%)
+      n1: 109064 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 109064 in 3 places, all below massif's threshold (1.00%)
+      n0: 23840 in 1 place, below massif's threshold (1.00%)
+     n0: 47640 in 1 place, below massif's threshold (1.00%)
+    n3: 516236 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 239572 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 108848 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 108848 in 3 places, all below massif's threshold (1.00%)
+      n1: 106908 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 106908 in 3 places, all below massif's threshold (1.00%)
+      n0: 23816 in 1 place, below massif's threshold (1.00%)
+     n3: 229024 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 105908 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 105908 in 3 places, all below massif's threshold (1.00%)
+      n1: 101680 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 101680 in 3 places, all below massif's threshold (1.00%)
+      n0: 21436 in 1 place, below massif's threshold (1.00%)
+     n0: 47640 in 1 place, below massif's threshold (1.00%)
+    n0: 95240 0x10928A: main (merge_sort.cpp:17)
+   n3: 1055760 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 498732 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 228708 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 102980 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 102980 in 3 places, all below massif's threshold (1.00%)
+      n1: 101912 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 101912 in 3 places, all below massif's threshold (1.00%)
+      n0: 23816 in 1 place, below massif's threshold (1.00%)
+     n3: 222424 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 101276 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 101276 in 3 places, all below massif's threshold (1.00%)
+      n1: 97332 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 97332 in 3 places, all below massif's threshold (1.00%)
+      n0: 23816 in 1 place, below massif's threshold (1.00%)
+     n0: 47600 in 1 place, below massif's threshold (1.00%)
+    n3: 471300 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 218920 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 98640 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 98640 in 3 places, all below massif's threshold (1.00%)
+      n1: 96484 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 96484 in 3 places, all below massif's threshold (1.00%)
+      n0: 23796 in 1 place, below massif's threshold (1.00%)
+     n3: 209536 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 96228 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 96228 in 3 places, all below massif's threshold (1.00%)
+      n1: 91888 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 91888 in 3 places, all below massif's threshold (1.00%)
+      n0: 21420 in 1 place, below massif's threshold (1.00%)
+     n0: 42844 in 1 place, below massif's threshold (1.00%)
+    n0: 85728 0x10928A: main (merge_sort.cpp:17)
+   n0: 171380 0x10928A: main (merge_sort.cpp:17)
+ n1: 2271736 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 2271736 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 1098716 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 516568 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 239960 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 109528 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 109528 in 3 places, all below massif's threshold (1.00%)
+      n1: 106632 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 106632 in 3 places, all below massif's threshold (1.00%)
+      n0: 23800 in 1 place, below massif's threshold (1.00%)
+     n3: 229008 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 104220 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 104220 in 3 places, all below massif's threshold (1.00%)
+      n1: 100988 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 100988 in 3 places, all below massif's threshold (1.00%)
+      n0: 23800 in 1 place, below massif's threshold (1.00%)
+     n0: 47600 in 1 place, below massif's threshold (1.00%)
+    n3: 486988 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 224308 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 100888 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 100888 in 3 places, all below massif's threshold (1.00%)
+      n1: 99640 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 99640 in 3 places, all below massif's threshold (1.00%)
+      n0: 23780 in 1 place, below massif's threshold (1.00%)
+     n3: 215080 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 98828 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 98828 in 3 places, all below massif's threshold (1.00%)
+      n1: 94848 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 94848 in 3 places, all below massif's threshold (1.00%)
+      n0: 21404 in 1 place, below massif's threshold (1.00%)
+     n0: 47600 in 1 place, below massif's threshold (1.00%)
+    n0: 95160 0x10928A: main (merge_sort.cpp:17)
+   n3: 1001640 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 471576 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 215012 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 96176 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 96176 in 3 places, all below massif's threshold (1.00%)
+      n1: 95056 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 95056 in 3 places, all below massif's threshold (1.00%)
+      n0: 23780 in 1 place, below massif's threshold (1.00%)
+     n3: 209004 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 94492 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 94492 in 3 places, all below massif's threshold (1.00%)
+      n1: 90732 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 90732 in 3 places, all below massif's threshold (1.00%)
+      n0: 23780 in 1 place, below massif's threshold (1.00%)
+     n0: 47560 in 1 place, below massif's threshold (1.00%)
+    n3: 444412 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 205672 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 92024 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 92024 in 3 places, all below massif's threshold (1.00%)
+      n1: 89888 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 89888 in 3 places, all below massif's threshold (1.00%)
+      n0: 23760 in 1 place, below massif's threshold (1.00%)
+     n3: 195932 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 89288 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 89288 in 3 places, all below massif's threshold (1.00%)
+      n1: 85260 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 85260 in 3 places, all below massif's threshold (1.00%)
+      n0: 21384 in 1 place, below massif's threshold (1.00%)
+     n0: 42808 in 1 place, below massif's threshold (1.00%)
+    n0: 85652 0x10928A: main (merge_sort.cpp:17)
+   n0: 171380 0x10928A: main (merge_sort.cpp:17)
+ n0: 111768 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=82
+#-----------
+time=8737784
+mem_heap_B=4815456
+mem_heap_extra_B=3236024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=8820296
+mem_heap_B=4884228
+mem_heap_extra_B=3249764
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=8839328
+mem_heap_B=4903248
+mem_heap_extra_B=3249776
+mem_stacks_B=0
+heap_tree=peak
+n3: 4903248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2456912 0x109379: merge(int*, int, int, int) (merge_sort.cpp:35)
+  n3: 2456912 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 1180568 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 559872 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 262656 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 121048 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 121048 in 3 places, all below massif's threshold (1.00%)
+      n1: 117768 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 117768 in 3 places, all below massif's threshold (1.00%)
+      n0: 23840 in 1 place, below massif's threshold (1.00%)
+     n3: 249576 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 114512 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 114512 in 3 places, all below massif's threshold (1.00%)
+      n1: 111224 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 111224 in 3 places, all below massif's threshold (1.00%)
+      n0: 23840 in 1 place, below massif's threshold (1.00%)
+     n0: 47640 in 1 place, below massif's threshold (1.00%)
+    n3: 525456 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 242064 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 109984 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 109984 in 3 places, all below massif's threshold (1.00%)
+      n1: 108264 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 108264 in 3 places, all below massif's threshold (1.00%)
+      n0: 23816 in 1 place, below massif's threshold (1.00%)
+     n3: 235752 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 106908 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 106908 in 3 places, all below massif's threshold (1.00%)
+      n1: 105028 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 105028 in 3 places, all below massif's threshold (1.00%)
+      n0: 23816 in 1 place, below massif's threshold (1.00%)
+     n0: 47640 in 1 place, below massif's threshold (1.00%)
+    n0: 95240 0x10928A: main (merge_sort.cpp:17)
+   n3: 1085944 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 505064 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 231008 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 103964 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 103964 in 3 places, all below massif's threshold (1.00%)
+      n1: 103228 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 103228 in 3 places, all below massif's threshold (1.00%)
+      n0: 23816 in 1 place, below massif's threshold (1.00%)
+     n3: 226456 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 102204 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 102204 in 3 places, all below massif's threshold (1.00%)
+      n1: 100436 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 100436 in 3 places, all below massif's threshold (1.00%)
+      n0: 23816 in 1 place, below massif's threshold (1.00%)
+     n0: 47600 in 1 place, below massif's threshold (1.00%)
+    n3: 485640 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 221668 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 99548 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 99548 in 3 places, all below massif's threshold (1.00%)
+      n1: 98324 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 98324 in 3 places, all below massif's threshold (1.00%)
+      n0: 23796 in 1 place, below massif's threshold (1.00%)
+     n3: 216372 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 97436 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 97436 in 3 places, all below massif's threshold (1.00%)
+      n1: 95140 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 95140 in 3 places, all below massif's threshold (1.00%)
+      n0: 23796 in 1 place, below massif's threshold (1.00%)
+     n0: 47600 in 1 place, below massif's threshold (1.00%)
+    n0: 95240 0x10928A: main (merge_sort.cpp:17)
+   n0: 190400 0x10928A: main (merge_sort.cpp:17)
+ n1: 2334568 0x1093A4: merge(int*, int, int, int) (merge_sort.cpp:36)
+  n3: 2334568 0x109326: mergeSort(int*, int, int) (merge_sort.cpp:29)
+   n3: 1112896 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+    n3: 522224 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 242656 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 110692 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 110692 in 3 places, all below massif's threshold (1.00%)
+      n1: 108164 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 108164 in 3 places, all below massif's threshold (1.00%)
+      n0: 23800 in 1 place, below massif's threshold (1.00%)
+     n3: 231968 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 105280 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 105280 in 3 places, all below massif's threshold (1.00%)
+      n1: 102888 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 102888 in 3 places, all below massif's threshold (1.00%)
+      n0: 23800 in 1 place, below massif's threshold (1.00%)
+     n0: 47600 in 1 place, below massif's threshold (1.00%)
+    n3: 495512 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 226388 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 101768 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 101768 in 3 places, all below massif's threshold (1.00%)
+      n1: 100840 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 100840 in 3 places, all below massif's threshold (1.00%)
+      n0: 23780 in 1 place, below massif's threshold (1.00%)
+     n3: 221524 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 99696 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 99696 in 3 places, all below massif's threshold (1.00%)
+      n1: 98048 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 98048 in 3 places, all below massif's threshold (1.00%)
+      n0: 23780 in 1 place, below massif's threshold (1.00%)
+     n0: 47600 in 1 place, below massif's threshold (1.00%)
+    n0: 95160 0x10928A: main (merge_sort.cpp:17)
+   n3: 1031272 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+    n3: 477552 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+     n3: 217068 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 97032 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 97032 in 3 places, all below massif's threshold (1.00%)
+      n1: 96256 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 96256 in 3 places, all below massif's threshold (1.00%)
+      n0: 23780 in 1 place, below massif's threshold (1.00%)
+     n3: 212924 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 95360 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 95360 in 3 places, all below massif's threshold (1.00%)
+      n1: 93784 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 93784 in 3 places, all below massif's threshold (1.00%)
+      n0: 23780 in 1 place, below massif's threshold (1.00%)
+     n0: 47560 in 1 place, below massif's threshold (1.00%)
+    n3: 458560 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+     n3: 208328 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+      n1: 92888 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 92888 in 3 places, all below massif's threshold (1.00%)
+      n1: 91680 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 91680 in 3 places, all below massif's threshold (1.00%)
+      n0: 23760 in 1 place, below massif's threshold (1.00%)
+     n3: 202672 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+      n1: 90452 0x1092FA: mergeSort(int*, int, int) (merge_sort.cpp:27)
+       n0: 90452 in 3 places, all below massif's threshold (1.00%)
+      n1: 88460 0x109311: mergeSort(int*, int, int) (merge_sort.cpp:28)
+       n0: 88460 in 3 places, all below massif's threshold (1.00%)
+      n0: 23760 in 1 place, below massif's threshold (1.00%)
+     n0: 47560 in 1 place, below massif's threshold (1.00%)
+    n0: 95160 0x10928A: main (merge_sort.cpp:17)
+   n0: 190400 0x10928A: main (merge_sort.cpp:17)
+ n0: 111768 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=85
+#-----------
+time=8951120
+mem_heap_B=4791480
+mem_heap_extra_B=3249752
+mem_stacks_B=0
+heap_tree=empty

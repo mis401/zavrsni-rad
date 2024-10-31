@@ -1,0 +1,1062 @@
+desc: (none)
+cmd: ./server_wo_bugs
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2041559
+mem_heap_B=73728
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2045876
+mem_heap_B=73792
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2046826
+mem_heap_B=74336
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=2048573
+mem_heap_B=74640
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=2050278
+mem_heap_B=74656
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2052384
+mem_heap_B=74984
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n2: 74984 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 1256 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=2053787
+mem_heap_B=75336
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2055413
+mem_heap_B=75320
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2056321
+mem_heap_B=75648
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=2058456
+mem_heap_B=76040
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76040 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1520 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1520 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1520 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1520 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1520 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1520 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1520 0x111B92: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118B4: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x111712: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x11136B: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110009: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEDB: main (main.cpp:4)
+        n0: 304 in 1 place, below massif's threshold (1.00%)
+ n0: 792 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=2060628
+mem_heap_B=76040
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76040 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1520 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1520 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1520 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1520 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1520 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1520 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1520 0x111B92: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118B4: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x111712: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x11136B: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110009: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEDB: main (main.cpp:4)
+        n0: 304 in 1 place, below massif's threshold (1.00%)
+ n0: 792 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=2061536
+mem_heap_B=76336
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2073153
+mem_heap_B=76359
+mem_heap_extra_B=193
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2077113
+mem_heap_B=77383
+mem_heap_extra_B=201
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2082144
+mem_heap_B=77415
+mem_heap_extra_B=209
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2084931
+mem_heap_B=109415
+mem_heap_extra_B=217
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=2085850
+mem_heap_B=109713
+mem_heap_extra_B=255
+mem_stacks_B=0
+heap_tree=detailed
+n4: 109713 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 32000 0x1103E2: TCPServer::startListen()::{lambda()#2}::operator()() const (tcpserver.cpp:53)
+  n1: 32000 0x110D05: void std::__invoke_impl<void, TCPServer::startListen()::{lambda()#2}&>(std::__invoke_other, TCPServer::startListen()::{lambda()#2}&) (invoke.h:61)
+   n1: 32000 0x110BF9: std::enable_if<is_invocable_r_v<void, TCPServer::startListen()::{lambda()#2}&>, void>::type std::__invoke_r<void, TCPServer::startListen()::{lambda()#2}&>(TCPServer::startListen()::{lambda()#2}&) (invoke.h:111)
+    n1: 32000 0x110AD9: std::_Function_handler<void (), TCPServer::startListen()::{lambda()#2}>::_M_invoke(std::_Any_data const&) (std_function.h:290)
+     n1: 32000 0x1124C5: std::function<void ()>::operator()() const (std_function.h:591)
+      n1: 32000 0x111250: ThreadPool::ThreadPool(int)::{lambda()#1}::operator()() const (threadpool.cpp:21)
+       n1: 32000 0x111EA1: void std::__invoke_impl<void, ThreadPool::ThreadPool(int)::{lambda()#1}>(std::__invoke_other, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:61)
+        n1: 32000 0x111E64: std::__invoke_result<ThreadPool::ThreadPool(int)::{lambda()#1}>::type std::__invoke<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:96)
+         n1: 32000 0x111E11: void std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (std_thread.h:292)
+          n1: 32000 0x111DE5: std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::operator()() (std_thread.h:299)
+           n1: 32000 0x111DC9: std::thread::_State_impl<std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> > >::_M_run() (std_thread.h:244)
+            n1: 32000 0x494EBB3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+             n1: 32000 0x4BAAA93: start_thread (pthread_create.c:447)
+              n0: 32000 0x4C37A33: clone (clone.S:100)
+ n0: 2161 in 8 places, all below massif's threshold (1.00%)
+ n1: 1824 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1824 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1824 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1824 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1824 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1824 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1824 0x111B92: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118B4: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x111712: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x11136B: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110009: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEDB: main (main.cpp:4)
+        n0: 608 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=2087609
+mem_heap_B=109713
+mem_heap_extra_B=255
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2097800
+mem_heap_B=109744
+mem_heap_extra_B=264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2099765
+mem_heap_B=109857
+mem_heap_extra_B=303
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2101339
+mem_heap_B=109975
+mem_heap_extra_B=321
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2103582
+mem_heap_B=110191
+mem_heap_extra_B=337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=2104714
+mem_heap_B=110082
+mem_heap_extra_B=350
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2106105
+mem_heap_B=110161
+mem_heap_extra_B=375
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2111095
+mem_heap_B=110192
+mem_heap_extra_B=384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2113219
+mem_heap_B=110338
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2114832
+mem_heap_B=110487
+mem_heap_extra_B=497
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2116382
+mem_heap_B=109758
+mem_heap_extra_B=306
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2119477
+mem_heap_B=109782
+mem_heap_extra_B=322
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=2121696
+mem_heap_B=77439
+mem_heap_extra_B=225
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2123882
+mem_heap_B=109439
+mem_heap_extra_B=233
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2124803
+mem_heap_B=109587
+mem_heap_extra_B=253
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2126126
+mem_heap_B=109766
+mem_heap_extra_B=282
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=2128091
+mem_heap_B=109879
+mem_heap_extra_B=321
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=2129665
+mem_heap_B=109997
+mem_heap_extra_B=339
+mem_stacks_B=0
+heap_tree=detailed
+n4: 109997 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 32000 0x1103E2: TCPServer::startListen()::{lambda()#2}::operator()() const (tcpserver.cpp:53)
+  n1: 32000 0x110D05: void std::__invoke_impl<void, TCPServer::startListen()::{lambda()#2}&>(std::__invoke_other, TCPServer::startListen()::{lambda()#2}&) (invoke.h:61)
+   n1: 32000 0x110BF9: std::enable_if<is_invocable_r_v<void, TCPServer::startListen()::{lambda()#2}&>, void>::type std::__invoke_r<void, TCPServer::startListen()::{lambda()#2}&>(TCPServer::startListen()::{lambda()#2}&) (invoke.h:111)
+    n1: 32000 0x110AD9: std::_Function_handler<void (), TCPServer::startListen()::{lambda()#2}>::_M_invoke(std::_Any_data const&) (std_function.h:290)
+     n1: 32000 0x1124C5: std::function<void ()>::operator()() const (std_function.h:591)
+      n1: 32000 0x111250: ThreadPool::ThreadPool(int)::{lambda()#1}::operator()() const (threadpool.cpp:21)
+       n1: 32000 0x111EA1: void std::__invoke_impl<void, ThreadPool::ThreadPool(int)::{lambda()#1}>(std::__invoke_other, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:61)
+        n1: 32000 0x111E64: std::__invoke_result<ThreadPool::ThreadPool(int)::{lambda()#1}>::type std::__invoke<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:96)
+         n1: 32000 0x111E11: void std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (std_thread.h:292)
+          n1: 32000 0x111DE5: std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::operator()() (std_thread.h:299)
+           n1: 32000 0x111DC9: std::thread::_State_impl<std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> > >::_M_run() (std_thread.h:244)
+            n1: 32000 0x494EBB3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+             n1: 32000 0x4BAAA93: start_thread (pthread_create.c:447)
+              n0: 32000 0x4C37A33: clone (clone.S:100)
+ n0: 2445 in 14 places, all below massif's threshold (1.00%)
+ n1: 1824 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1824 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1824 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1824 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1824 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1824 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1824 0x111B92: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118B4: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x111712: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x11136B: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110009: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEDB: main (main.cpp:4)
+        n0: 608 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=2131908
+mem_heap_B=110213
+mem_heap_extra_B=355
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=2133783
+mem_heap_B=110183
+mem_heap_extra_B=393
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=2135441
+mem_heap_B=110214
+mem_heap_extra_B=402
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=2136549
+mem_heap_B=110296
+mem_heap_extra_B=440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=2138237
+mem_heap_B=110377
+mem_heap_extra_B=463
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=2139836
+mem_heap_B=110377
+mem_heap_extra_B=463
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=2141293
+mem_heap_B=109805
+mem_heap_extra_B=339
+mem_stacks_B=0
+heap_tree=detailed
+n4: 109805 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 32000 0x1103E2: TCPServer::startListen()::{lambda()#2}::operator()() const (tcpserver.cpp:53)
+  n1: 32000 0x110D05: void std::__invoke_impl<void, TCPServer::startListen()::{lambda()#2}&>(std::__invoke_other, TCPServer::startListen()::{lambda()#2}&) (invoke.h:61)
+   n1: 32000 0x110BF9: std::enable_if<is_invocable_r_v<void, TCPServer::startListen()::{lambda()#2}&>, void>::type std::__invoke_r<void, TCPServer::startListen()::{lambda()#2}&>(TCPServer::startListen()::{lambda()#2}&) (invoke.h:111)
+    n1: 32000 0x110AD9: std::_Function_handler<void (), TCPServer::startListen()::{lambda()#2}>::_M_invoke(std::_Any_data const&) (std_function.h:290)
+     n1: 32000 0x1124C5: std::function<void ()>::operator()() const (std_function.h:591)
+      n1: 32000 0x111250: ThreadPool::ThreadPool(int)::{lambda()#1}::operator()() const (threadpool.cpp:21)
+       n1: 32000 0x111EA1: void std::__invoke_impl<void, ThreadPool::ThreadPool(int)::{lambda()#1}>(std::__invoke_other, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:61)
+        n1: 32000 0x111E64: std::__invoke_result<ThreadPool::ThreadPool(int)::{lambda()#1}>::type std::__invoke<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:96)
+         n1: 32000 0x111E11: void std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (std_thread.h:292)
+          n1: 32000 0x111DE5: std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::operator()() (std_thread.h:299)
+           n1: 32000 0x111DC9: std::thread::_State_impl<std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> > >::_M_run() (std_thread.h:244)
+            n1: 32000 0x494EBB3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+             n1: 32000 0x4BAAA93: start_thread (pthread_create.c:447)
+              n0: 32000 0x4C37A33: clone (clone.S:100)
+ n0: 2253 in 14 places, all below massif's threshold (1.00%)
+ n1: 1824 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1824 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1824 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1824 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1824 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1824 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1824 0x111B92: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118B4: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x111712: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x11136B: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110009: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEDB: main (main.cpp:4)
+        n0: 608 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=2143209
+mem_heap_B=77463
+mem_heap_extra_B=241
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2145047
+mem_heap_B=109463
+mem_heap_extra_B=249
+mem_stacks_B=0
+heap_tree=detailed
+n4: 109463 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 32000 0x1103E2: TCPServer::startListen()::{lambda()#2}::operator()() const (tcpserver.cpp:53)
+  n1: 32000 0x110D05: void std::__invoke_impl<void, TCPServer::startListen()::{lambda()#2}&>(std::__invoke_other, TCPServer::startListen()::{lambda()#2}&) (invoke.h:61)
+   n1: 32000 0x110BF9: std::enable_if<is_invocable_r_v<void, TCPServer::startListen()::{lambda()#2}&>, void>::type std::__invoke_r<void, TCPServer::startListen()::{lambda()#2}&>(TCPServer::startListen()::{lambda()#2}&) (invoke.h:111)
+    n1: 32000 0x110AD9: std::_Function_handler<void (), TCPServer::startListen()::{lambda()#2}>::_M_invoke(std::_Any_data const&) (std_function.h:290)
+     n1: 32000 0x1124C5: std::function<void ()>::operator()() const (std_function.h:591)
+      n1: 32000 0x111250: ThreadPool::ThreadPool(int)::{lambda()#1}::operator()() const (threadpool.cpp:21)
+       n1: 32000 0x111EA1: void std::__invoke_impl<void, ThreadPool::ThreadPool(int)::{lambda()#1}>(std::__invoke_other, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:61)
+        n1: 32000 0x111E64: std::__invoke_result<ThreadPool::ThreadPool(int)::{lambda()#1}>::type std::__invoke<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:96)
+         n1: 32000 0x111E11: void std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (std_thread.h:292)
+          n1: 32000 0x111DE5: std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::operator()() (std_thread.h:299)
+           n1: 32000 0x111DC9: std::thread::_State_impl<std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> > >::_M_run() (std_thread.h:244)
+            n1: 32000 0x494EBB3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+             n1: 32000 0x4BAAA93: start_thread (pthread_create.c:447)
+              n0: 32000 0x4C37A33: clone (clone.S:100)
+ n0: 1911 in 14 places, all below massif's threshold (1.00%)
+ n1: 1824 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1824 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1824 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1824 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1824 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1824 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1824 0x111B92: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118B4: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x111712: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x11136B: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110009: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEDB: main (main.cpp:4)
+        n0: 608 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=2147289
+mem_heap_B=109792
+mem_heap_extra_B=296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2149254
+mem_heap_B=109905
+mem_heap_extra_B=335
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=2150828
+mem_heap_B=110023
+mem_heap_extra_B=353
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=2153071
+mem_heap_B=110239
+mem_heap_extra_B=369
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=2154716
+mem_heap_B=110160
+mem_heap_extra_B=384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=2156703
+mem_heap_B=110240
+mem_heap_extra_B=416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=2157664
+mem_heap_B=110303
+mem_heap_extra_B=433
+mem_stacks_B=0
+heap_tree=detailed
+n4: 110303 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 32000 0x1103E2: TCPServer::startListen()::{lambda()#2}::operator()() const (tcpserver.cpp:53)
+  n1: 32000 0x110D05: void std::__invoke_impl<void, TCPServer::startListen()::{lambda()#2}&>(std::__invoke_other, TCPServer::startListen()::{lambda()#2}&) (invoke.h:61)
+   n1: 32000 0x110BF9: std::enable_if<is_invocable_r_v<void, TCPServer::startListen()::{lambda()#2}&>, void>::type std::__invoke_r<void, TCPServer::startListen()::{lambda()#2}&>(TCPServer::startListen()::{lambda()#2}&) (invoke.h:111)
+    n1: 32000 0x110AD9: std::_Function_handler<void (), TCPServer::startListen()::{lambda()#2}>::_M_invoke(std::_Any_data const&) (std_function.h:290)
+     n1: 32000 0x1124C5: std::function<void ()>::operator()() const (std_function.h:591)
+      n1: 32000 0x111250: ThreadPool::ThreadPool(int)::{lambda()#1}::operator()() const (threadpool.cpp:21)
+       n1: 32000 0x111EA1: void std::__invoke_impl<void, ThreadPool::ThreadPool(int)::{lambda()#1}>(std::__invoke_other, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:61)
+        n1: 32000 0x111E64: std::__invoke_result<ThreadPool::ThreadPool(int)::{lambda()#1}>::type std::__invoke<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:96)
+         n1: 32000 0x111E11: void std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (std_thread.h:292)
+          n1: 32000 0x111DE5: std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::operator()() (std_thread.h:299)
+           n1: 32000 0x111DC9: std::thread::_State_impl<std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> > >::_M_run() (std_thread.h:244)
+            n1: 32000 0x494EBB3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+             n1: 32000 0x4BAAA93: start_thread (pthread_create.c:447)
+              n0: 32000 0x4C37A33: clone (clone.S:100)
+ n0: 2751 in 14 places, all below massif's threshold (1.00%)
+ n1: 1824 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1824 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1824 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1824 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1824 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1824 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1824 0x111B92: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118B4: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x111712: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x11136B: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110009: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEDB: main (main.cpp:4)
+        n0: 608 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=2158827
+mem_heap_B=110386
+mem_heap_extra_B=462
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=2159948
+mem_heap_B=110467
+mem_heap_extra_B=485
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=2160916
+mem_heap_B=110516
+mem_heap_extra_B=508
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=2161827
+mem_heap_B=110016
+mem_heap_extra_B=368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=2162985
+mem_heap_B=77830
+mem_heap_extra_B=346
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=2163952
+mem_heap_B=77455
+mem_heap_extra_B=249
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=2164879
+mem_heap_B=77487
+mem_heap_extra_B=257
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=2167065
+mem_heap_B=109487
+mem_heap_extra_B=265
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=2167984
+mem_heap_B=109636
+mem_heap_extra_B=284
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=2169307
+mem_heap_B=109816
+mem_heap_extra_B=312
+mem_stacks_B=0
+heap_tree=detailed
+n4: 109816 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 32000 0x1103E2: TCPServer::startListen()::{lambda()#2}::operator()() const (tcpserver.cpp:53)
+  n1: 32000 0x110D05: void std::__invoke_impl<void, TCPServer::startListen()::{lambda()#2}&>(std::__invoke_other, TCPServer::startListen()::{lambda()#2}&) (invoke.h:61)
+   n1: 32000 0x110BF9: std::enable_if<is_invocable_r_v<void, TCPServer::startListen()::{lambda()#2}&>, void>::type std::__invoke_r<void, TCPServer::startListen()::{lambda()#2}&>(TCPServer::startListen()::{lambda()#2}&) (invoke.h:111)
+    n1: 32000 0x110AD9: std::_Function_handler<void (), TCPServer::startListen()::{lambda()#2}>::_M_invoke(std::_Any_data const&) (std_function.h:290)
+     n1: 32000 0x1124C5: std::function<void ()>::operator()() const (std_function.h:591)
+      n1: 32000 0x111250: ThreadPool::ThreadPool(int)::{lambda()#1}::operator()() const (threadpool.cpp:21)
+       n1: 32000 0x111EA1: void std::__invoke_impl<void, ThreadPool::ThreadPool(int)::{lambda()#1}>(std::__invoke_other, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:61)
+        n1: 32000 0x111E64: std::__invoke_result<ThreadPool::ThreadPool(int)::{lambda()#1}>::type std::__invoke<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:96)
+         n1: 32000 0x111E11: void std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (std_thread.h:292)
+          n1: 32000 0x111DE5: std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::operator()() (std_thread.h:299)
+           n1: 32000 0x111DC9: std::thread::_State_impl<std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> > >::_M_run() (std_thread.h:244)
+            n1: 32000 0x494EBB3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+             n1: 32000 0x4BAAA93: start_thread (pthread_create.c:447)
+              n0: 32000 0x4C37A33: clone (clone.S:100)
+ n0: 2264 in 14 places, all below massif's threshold (1.00%)
+ n1: 1824 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1824 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1824 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1824 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1824 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1824 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1824 0x111B92: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118B4: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x111712: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x11136B: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110009: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEDB: main (main.cpp:4)
+        n0: 608 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=2171272
+mem_heap_B=109929
+mem_heap_extra_B=351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=2172846
+mem_heap_B=110047
+mem_heap_extra_B=369
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=2175089
+mem_heap_B=110263
+mem_heap_extra_B=385
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=2176221
+mem_heap_B=110154
+mem_heap_extra_B=398
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=2178721
+mem_heap_B=110264
+mem_heap_extra_B=432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=2179682
+mem_heap_B=110327
+mem_heap_extra_B=449
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=2180845
+mem_heap_B=110410
+mem_heap_extra_B=478
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=2181966
+mem_heap_B=110491
+mem_heap_extra_B=501
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=2182934
+mem_heap_B=110559
+mem_heap_extra_B=545
+mem_stacks_B=0
+heap_tree=peak
+n4: 110559 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 32000 0x1103E2: TCPServer::startListen()::{lambda()#2}::operator()() const (tcpserver.cpp:53)
+  n1: 32000 0x110D05: void std::__invoke_impl<void, TCPServer::startListen()::{lambda()#2}&>(std::__invoke_other, TCPServer::startListen()::{lambda()#2}&) (invoke.h:61)
+   n1: 32000 0x110BF9: std::enable_if<is_invocable_r_v<void, TCPServer::startListen()::{lambda()#2}&>, void>::type std::__invoke_r<void, TCPServer::startListen()::{lambda()#2}&>(TCPServer::startListen()::{lambda()#2}&) (invoke.h:111)
+    n1: 32000 0x110AD9: std::_Function_handler<void (), TCPServer::startListen()::{lambda()#2}>::_M_invoke(std::_Any_data const&) (std_function.h:290)
+     n1: 32000 0x1124C5: std::function<void ()>::operator()() const (std_function.h:591)
+      n1: 32000 0x111250: ThreadPool::ThreadPool(int)::{lambda()#1}::operator()() const (threadpool.cpp:21)
+       n1: 32000 0x111EA1: void std::__invoke_impl<void, ThreadPool::ThreadPool(int)::{lambda()#1}>(std::__invoke_other, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:61)
+        n1: 32000 0x111E64: std::__invoke_result<ThreadPool::ThreadPool(int)::{lambda()#1}>::type std::__invoke<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:96)
+         n1: 32000 0x111E11: void std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (std_thread.h:292)
+          n1: 32000 0x111DE5: std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::operator()() (std_thread.h:299)
+           n1: 32000 0x111DC9: std::thread::_State_impl<std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> > >::_M_run() (std_thread.h:244)
+            n1: 32000 0x494EBB3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+             n1: 32000 0x4BAAA93: start_thread (pthread_create.c:447)
+              n0: 32000 0x4C37A33: clone (clone.S:100)
+ n0: 3007 in 14 places, all below massif's threshold (1.00%)
+ n1: 1824 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1824 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1824 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1824 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1824 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1824 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1824 0x111B92: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118B4: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x111712: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x11136B: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110009: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEDB: main (main.cpp:4)
+        n0: 608 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=71
+#-----------
+time=2183845
+mem_heap_B=110040
+mem_heap_extra_B=384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=2185025
+mem_heap_B=77854
+mem_heap_extra_B=362
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=2185992
+mem_heap_B=77479
+mem_heap_extra_B=265
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=2188757
+mem_heap_B=109511
+mem_heap_extra_B=281
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=2190207
+mem_heap_B=109667
+mem_heap_extra_B=301
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=2191330
+mem_heap_B=109699
+mem_heap_extra_B=309
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=2192747
+mem_heap_B=109794
+mem_heap_extra_B=326
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=2194349
+mem_heap_B=109912
+mem_heap_extra_B=344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=2196594
+mem_heap_B=110128
+mem_heap_extra_B=360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=2197684
+mem_heap_B=110000
+mem_heap_extra_B=352
+mem_stacks_B=0
+heap_tree=detailed
+n4: 110000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 32000 0x1103E2: TCPServer::startListen()::{lambda()#2}::operator()() const (tcpserver.cpp:53)
+  n1: 32000 0x110D05: void std::__invoke_impl<void, TCPServer::startListen()::{lambda()#2}&>(std::__invoke_other, TCPServer::startListen()::{lambda()#2}&) (invoke.h:61)
+   n1: 32000 0x110BF9: std::enable_if<is_invocable_r_v<void, TCPServer::startListen()::{lambda()#2}&>, void>::type std::__invoke_r<void, TCPServer::startListen()::{lambda()#2}&>(TCPServer::startListen()::{lambda()#2}&) (invoke.h:111)
+    n1: 32000 0x110AD9: std::_Function_handler<void (), TCPServer::startListen()::{lambda()#2}>::_M_invoke(std::_Any_data const&) (std_function.h:290)
+     n1: 32000 0x1124C5: std::function<void ()>::operator()() const (std_function.h:591)
+      n1: 32000 0x111250: ThreadPool::ThreadPool(int)::{lambda()#1}::operator()() const (threadpool.cpp:21)
+       n1: 32000 0x111EA1: void std::__invoke_impl<void, ThreadPool::ThreadPool(int)::{lambda()#1}>(std::__invoke_other, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:61)
+        n1: 32000 0x111E64: std::__invoke_result<ThreadPool::ThreadPool(int)::{lambda()#1}>::type std::__invoke<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (invoke.h:96)
+         n1: 32000 0x111E11: void std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::_M_invoke<0ul>(std::_Index_tuple<0ul>) (std_thread.h:292)
+          n1: 32000 0x111DE5: std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> >::operator()() (std_thread.h:299)
+           n1: 32000 0x111DC9: std::thread::_State_impl<std::thread::_Invoker<std::tuple<ThreadPool::ThreadPool(int)::{lambda()#1}> > >::_M_run() (std_thread.h:244)
+            n1: 32000 0x494EBB3: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+             n1: 32000 0x4BAAA93: start_thread (pthread_create.c:447)
+              n0: 32000 0x4C37A33: clone (clone.S:100)
+ n0: 2448 in 14 places, all below massif's threshold (1.00%)
+ n1: 1824 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1824 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1824 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1824 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1824 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1824 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1824 0x111B92: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118B4: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118B4: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x111712: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x11136B: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110009: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEDB: main (main.cpp:4)
+        n0: 608 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=81
+#-----------
+time=2199583
+mem_heap_B=110093
+mem_heap_extra_B=379
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=2201481
+mem_heap_B=109690
+mem_heap_extra_B=334
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=2202442
+mem_heap_B=109706
+mem_heap_extra_B=342
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=2203518
+mem_heap_B=109730
+mem_heap_extra_B=334
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=2205110
+mem_heap_B=109745
+mem_heap_extra_B=335
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=2207536
+mem_heap_B=109806
+mem_heap_extra_B=346
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=2208864
+mem_heap_B=77651
+mem_heap_extra_B=301
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=2222225
+mem_heap_B=3751
+mem_heap_extra_B=257
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=2223461
+mem_heap_B=2727
+mem_heap_extra_B=249
+mem_stacks_B=0
+heap_tree=empty

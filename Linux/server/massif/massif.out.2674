@@ -1,0 +1,334 @@
+desc: (none)
+cmd: ./test6
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2041550
+mem_heap_B=73728
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2045867
+mem_heap_B=73792
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2046012
+mem_heap_B=74304
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=2046692
+mem_heap_B=74312
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=2046817
+mem_heap_B=74336
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2048564
+mem_heap_B=74640
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2050269
+mem_heap_B=74656
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2050394
+mem_heap_B=74680
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2051022
+mem_heap_B=74984
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n2: 74984 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 1256 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=2052375
+mem_heap_B=74984
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n2: 74984 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 1256 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=2052375
+mem_heap_B=74976
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=2053025
+mem_heap_B=75008
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2053150
+mem_heap_B=75032
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2053778
+mem_heap_B=75336
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2055404
+mem_heap_B=75320
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2055684
+mem_heap_B=75344
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=2056312
+mem_heap_B=75648
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2062435
+mem_heap_B=75712
+mem_heap_extra_B=136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2062560
+mem_heap_B=75736
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2063188
+mem_heap_B=76040
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76040 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1520 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1520 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1520 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1520 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1520 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1520 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1520 0x111B9C: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118BE: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118BE: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118BE: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x11171C: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x111375: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110013: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEE5: main (main.cpp:4)
+        n0: 304 in 1 place, below massif's threshold (1.00%)
+ n0: 792 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=2065360
+mem_heap_B=76040
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76040 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1520 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1520 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1520 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1520 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1520 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1520 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1520 0x111B9C: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118BE: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118BE: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118BE: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x11171C: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x111375: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110013: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEE5: main (main.cpp:4)
+        n0: 304 in 1 place, below massif's threshold (1.00%)
+ n0: 792 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=2065360
+mem_heap_B=76008
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=2065640
+mem_heap_B=76032
+mem_heap_extra_B=168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2066268
+mem_heap_B=76336
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2069322
+mem_heap_B=76359
+mem_heap_extra_B=193
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2073282
+mem_heap_B=77383
+mem_heap_extra_B=201
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2090171
+mem_heap_B=77383
+mem_heap_extra_B=201
+mem_stacks_B=0
+heap_tree=peak
+n4: 77383 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1824 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1824 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1824 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1824 0x4BAB606: allocate_stack (allocatestack.c:429)
+     n1: 1824 0x4BAB606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 1824 0x494EC88: std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)()) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+       n2: 1824 0x111B9C: std::thread::thread<ThreadPool::ThreadPool(int)::{lambda()#1}, , void>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (std_thread.h:164)
+        n1: 1216 0x1118BE: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (new_allocator.h:191)
+         n1: 1216 0x1118BE: construct<std::thread, ThreadPool::ThreadPool(int)::<lambda()> > (alloc_traits.h:538)
+          n1: 1216 0x1118BE: void std::vector<std::thread, std::allocator<std::thread> >::_M_realloc_insert<ThreadPool::ThreadPool(int)::{lambda()#1}>(__gnu_cxx::__normal_iterator<std::thread*, std::vector<std::thread, std::allocator<std::thread> > >, ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:468)
+           n1: 1216 0x11171C: std::thread& std::vector<std::thread, std::allocator<std::thread> >::emplace_back<ThreadPool::ThreadPool(int)::{lambda()#1}>(ThreadPool::ThreadPool(int)::{lambda()#1}&&) (vector.tcc:123)
+            n1: 1216 0x111375: ThreadPool::ThreadPool(int) (threadpool.cpp:6)
+             n1: 1216 0x110013: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:5)
+              n0: 1216 0x10FEE5: main (main.cpp:4)
+        n0: 608 in 1 place, below massif's threshold (1.00%)
+ n1: 1024 0x4B931A4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x4BA3513: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4BA0F7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4BA1A9E: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4BA1A9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x4B94A01: fwrite (iofwrite.c:39)
+       n1: 1024 0x49B5CA4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n1: 1024 0x49B602A: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+         n1: 1024 0x1101DC: TCPServer::start() (tcpserver.cpp:15)
+          n1: 1024 0x1100A1: TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int) (tcpserver.cpp:6)
+           n0: 1024 0x10FEE5: main (main.cpp:4)
+ n0: 807 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=2090171
+mem_heap_B=3655
+mem_heap_extra_B=193
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2091407
+mem_heap_B=2631
+mem_heap_extra_B=185
+mem_stacks_B=0
+heap_tree=empty

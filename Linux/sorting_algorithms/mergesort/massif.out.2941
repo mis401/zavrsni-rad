@@ -1,0 +1,722 @@
+desc: --time-unit=B
+cmd: ./mergesort
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=250952
+mem_heap_B=82760
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n5: 82760 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 4004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 4004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2004 0x1093B1: merge(int*, int, int, int) (merge_sort.cpp:38)
+  n2: 2004 0x10935E: mergeSort(int*, int, int) (merge_sort.cpp:32)
+   n0: 2004 0x1092C2: main (merge_sort.cpp:20)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n1: 2000 0x1093DC: merge(int*, int, int, int) (merge_sort.cpp:39)
+  n2: 2000 0x10935E: mergeSort(int*, int, int) (merge_sort.cpp:32)
+   n0: 2000 0x1092C2: main (merge_sort.cpp:20)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n1: 1024 0x4B661A4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x4B76513: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4B73F7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4B74A9E: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4B74A9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x4B67A01: fwrite (iofwrite.c:39)
+       n1: 1024 0x49A6025: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n1: 1024 0x49B62AA: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+         n1: 1024 0x1096CE: printArray(int*, int) (merge_sort.cpp:86)
+          n0: 1024 0x10925A: main (merge_sort.cpp:13)
+#-----------
+snapshot=2
+#-----------
+time=397720
+mem_heap_B=82756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=608624
+mem_heap_B=84756
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=820264
+mem_heap_B=86764
+mem_heap_extra_B=92
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=980368
+mem_heap_B=87504
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=1104096
+mem_heap_B=86848
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=1319440
+mem_heap_B=91256
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=detailed
+n4: 91256 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 16004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 16004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1024 0x4B661A4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x4B76513: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4B73F7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4B74A9E: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4B74A9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x4B67A01: fwrite (iofwrite.c:39)
+       n1: 1024 0x49A6025: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n1: 1024 0x49B62AA: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+         n1: 1024 0x1096CE: printArray(int*, int) (merge_sort.cpp:86)
+          n0: 1024 0x10925A: main (merge_sort.cpp:13)
+ n0: 500 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=1442320
+mem_heap_B=90880
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=1671960
+mem_heap_B=90772
+mem_heap_extra_B=84
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=1814712
+mem_heap_B=90756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=1984248
+mem_heap_B=106760
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n5: 106760 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 16004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 16004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 8004 0x1093B1: merge(int*, int, int, int) (merge_sort.cpp:38)
+  n2: 8004 0x10935E: mergeSort(int*, int, int) (merge_sort.cpp:32)
+   n0: 8004 0x1092C2: main (merge_sort.cpp:20)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n1: 8000 0x1093DC: merge(int*, int, int, int) (merge_sort.cpp:39)
+  n2: 8000 0x10935E: mergeSort(int*, int, int) (merge_sort.cpp:32)
+   n0: 8000 0x1092C2: main (merge_sort.cpp:20)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 1024 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=2179240
+mem_heap_B=94756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=detailed
+n4: 94756 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 20004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 20004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1024 0x4B661A4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x4B76513: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4B73F7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4B74A9E: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4B74A9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x4B67A01: fwrite (iofwrite.c:39)
+       n1: 1024 0x49A6025: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n1: 1024 0x49B62AA: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+         n1: 1024 0x1096CE: printArray(int*, int) (merge_sort.cpp:86)
+          n0: 1024 0x10925A: main (merge_sort.cpp:13)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=2359880
+mem_heap_B=94756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=detailed
+n4: 94756 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 20004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 20004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1024 0x4B661A4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x4B76513: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4B73F7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4B74A9E: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4B74A9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x4B67A01: fwrite (iofwrite.c:39)
+       n1: 1024 0x49A6025: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+        n1: 1024 0x49B62AA: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+         n1: 1024 0x1096CE: printArray(int*, int) (merge_sort.cpp:86)
+          n0: 1024 0x10925A: main (merge_sort.cpp:13)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=2601264
+mem_heap_B=94776
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2788128
+mem_heap_B=94760
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2912424
+mem_heap_B=94764
+mem_heap_extra_B=92
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=3063736
+mem_heap_B=98780
+mem_heap_extra_B=76
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=3188032
+mem_heap_B=98780
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=3407008
+mem_heap_B=98852
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=3562456
+mem_heap_B=98756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=3812368
+mem_heap_B=98760
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=4016408
+mem_heap_B=98756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=4253072
+mem_heap_B=74752
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=4440960
+mem_heap_B=102812
+mem_heap_extra_B=68
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=4676960
+mem_heap_B=102812
+mem_heap_extra_B=68
+mem_stacks_B=0
+heap_tree=detailed
+n3: 102812 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 28004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 28004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1080 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=4912984
+mem_heap_B=109756
+mem_heap_extra_B=60
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=5148168
+mem_heap_B=102756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=detailed
+n3: 102756 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 28004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 28004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1024 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=5336320
+mem_heap_B=103192
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=5524192
+mem_heap_B=102812
+mem_heap_extra_B=68
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=5745992
+mem_heap_B=106820
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=5933848
+mem_heap_B=106756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=6076640
+mem_heap_B=108756
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=6313400
+mem_heap_B=106764
+mem_heap_extra_B=92
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=6570064
+mem_heap_B=107756
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=6824584
+mem_heap_B=107756
+mem_heap_extra_B=76
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=7015384
+mem_heap_B=106756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=7281304
+mem_heap_B=138760
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=7408872
+mem_heap_B=110764
+mem_heap_extra_B=92
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=7600120
+mem_heap_B=110896
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=7793152
+mem_heap_B=115256
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=7920200
+mem_heap_B=110768
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=detailed
+n3: 110768 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 36004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 36004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1036 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=8111200
+mem_heap_B=110828
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=8240816
+mem_heap_B=119756
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=8431416
+mem_heap_B=111036
+mem_heap_extra_B=60
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=8558440
+mem_heap_B=110824
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 110824 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 36004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 36004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1092 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=8812456
+mem_heap_B=110756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=8939496
+mem_heap_B=110764
+mem_heap_extra_B=92
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=9154120
+mem_heap_B=146760
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n5: 146760 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 36004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 36004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 18004 0x1093B1: merge(int*, int, int, int) (merge_sort.cpp:38)
+  n2: 18004 0x10935E: mergeSort(int*, int, int) (merge_sort.cpp:32)
+   n0: 18004 0x1092C2: main (merge_sort.cpp:20)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n1: 18000 0x1093DC: merge(int*, int, int, int) (merge_sort.cpp:39)
+  n2: 18000 0x10935E: mergeSort(int*, int, int) (merge_sort.cpp:32)
+   n0: 18000 0x1092C2: main (merge_sort.cpp:20)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 1024 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=9416912
+mem_heap_B=114796
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=9540152
+mem_heap_B=116008
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=9663032
+mem_heap_B=114756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=9785912
+mem_heap_B=114776
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=9908800
+mem_heap_B=114792
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=10031776
+mem_heap_B=114912
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=10154680
+mem_heap_B=114756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=detailed
+n3: 114756 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 40004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 40004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 1024 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=10277560
+mem_heap_B=114756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=10400472
+mem_heap_B=114756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=10523384
+mem_heap_B=114756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=10646264
+mem_heap_B=114756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=10769152
+mem_heap_B=114776
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=10892304
+mem_heap_B=115068
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=11015184
+mem_heap_B=114764
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=11138072
+mem_heap_B=114756
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=11258552
+mem_heap_B=154760
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=peak
+n5: 154760 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73728 0x491B401: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n0: 73728 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 40004 0x109628: allocateAndPopulateArray(int) (merge_sort.cpp:77)
+  n0: 40004 0x1092A7: main (merge_sort.cpp:19)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 20004 0x1093B1: merge(int*, int, int, int) (merge_sort.cpp:38)
+  n2: 20004 0x10935E: mergeSort(int*, int, int) (merge_sort.cpp:32)
+   n0: 20004 0x1092C2: main (merge_sort.cpp:20)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n1: 20000 0x1093DC: merge(int*, int, int, int) (merge_sort.cpp:39)
+  n2: 20000 0x10935E: mergeSort(int*, int, int) (merge_sort.cpp:32)
+   n0: 20000 0x1092C2: main (merge_sort.cpp:20)
+   n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 1024 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=11412344
+mem_heap_B=1024
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
